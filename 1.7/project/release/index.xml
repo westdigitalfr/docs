@@ -39,15 +39,5 @@ This page explains what is needed to release these modules.
 Requirements Mandatory requirements The module should be valid which means:</description>
     </item>
     
-    <item>
-      <title>Release a new PrestaShop version</title>
-      <link>https://devdocs.prestashop.com/1.7/project/release/release-a-new-version-of-prestashop/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://devdocs.prestashop.com/1.7/project/release/release-a-new-version-of-prestashop/</guid>
-      <description>Release a new PrestaShop version Overview What does it mean, &amp;ldquo;to release a new version of &amp;ldquo;PrestaShop&amp;rdquo;? Actually many different answers are eligible.
-You could say that &amp;ldquo;a new version of PrestaShop is released when there is a new release on the GitHub repository&amp;rdquo;. Or you could say &amp;ldquo;a new version of PrestaShop is released when I can download a new version on prestashop.com&amp;rdquo;. You could also say &amp;ldquo;a new version of PrestaShop is released when the auto-upgrade module allows to upgrade to this new version&amp;rdquo;.</description>
-    </item>
-    
   </channel>
 </rss>
