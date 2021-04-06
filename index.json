@@ -2825,7 +2825,7 @@
 	"title": "YesAndNoChoiceType",
 	"tags": [],
 	"description": "",
-	"content": "YesAndNoChoiceType The YesAndNoChoiceType represents select input with options Yes and No.\nType options    Option Type Default Description     choices array array By default Yes/No choices are defined   required boolean false Whether field is required or not    Required Javascript components None.\nPreview example   YesAndNoChoiceType rendered in form   "
+	"content": "YesAndNoChoiceType The YesAndNoChoiceType represents select input with options Yes and No.\nType options    Option Type Default Description     choices array array By default Yes/No choices are defined   required boolean false Whether field is required or not    Required Javascript components None.\nCode example Add YesAndNoChoiceType to your form.\n\u0026lt;?php use Symfony\\Component\\Form\\AbstractType; use PrestaShopBundle\\Form\\Admin\\Type\\YesAndNoChoiceType; class SomeType extends AbstractType { public function buildForm(FormBuilderInterface $builder, array $options) { $builder-\u0026gt;add(\u0026#39;yesandnochoicetype\u0026#39;, YesAndNoChoiceType::class, [ \u0026#39;choices\u0026#39; =\u0026gt; [ \u0026#39;Yes\u0026#39; =\u0026gt; true, \u0026#39;No\u0026#39; =\u0026gt; false, ], ]); } } Preview example   YesAndNoChoiceType rendered in form   "
 },
 {
 	"uri": "https://devdocs.prestashop.com/1.7/webservice/resources/zones/",
