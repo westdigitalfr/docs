@@ -495,18 +495,6 @@ It is an Active Record kind of class (see: Active record pattern). The table att
     </item>
     
     <item>
-      <title>Release a native PrestaShop module</title>
-      <link>https://devdocs.prestashop.com/1.7/project/release/release-a-native-ps-module/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://devdocs.prestashop.com/1.7/project/release/release-a-native-ps-module/</guid>
-      <description>Release a new version of a native PrestaShop module Some modules are embedded within PrestaShop ZIP archives and loaded through Composer package manager. They consequently are listed in the composer.json of the Core project.
-This is what we call &amp;ldquo;native PrestaShop modules&amp;rdquo;. The source code of these modules is hosted on GitHub.
-This page explains what is needed to release these modules.
-Requirements Mandatory requirements The module should be valid which means:</description>
-    </item>
-    
-    <item>
       <title>Retrieve a resource</title>
       <link>https://devdocs.prestashop.com/1.7/webservice/tutorials/prestashop-webservice-lib/retrieve-resource/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1791,6 +1779,18 @@ Smoke testing A smoke test is a really simple and basic test that ensure the pag
       <description>What&amp;rsquo;s the PrestaShop UIKit? The UIKit is a project extending Bootstrap 4 in order to provide some components with PrestaShop&amp;rsquo;s colors. You can see every component on this page.
 How do we use the UIKit? We use it by adding it into our npm dependency, and then you&amp;rsquo;ve multiple possibilities to use it.
  You can import dist files, it means that you won&amp;rsquo;t be able to use our variables outside of the UIKit.</description>
+    </item>
+    
+    <item>
+      <title>Release a native PrestaShop module</title>
+      <link>https://devdocs.prestashop.com/1.7/project/maintainers-guide/release-a-native-ps-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devdocs.prestashop.com/1.7/project/maintainers-guide/release-a-native-ps-module/</guid>
+      <description>Release a new version of a native PrestaShop module Some modules are embedded within PrestaShop ZIP archives and loaded through Composer package manager. They consequently are listed in the composer.json of the Core project.
+This is what we call &amp;ldquo;native PrestaShop modules&amp;rdquo;. The source code of these modules is hosted on GitHub.
+This page explains what is needed to release these modules.
+Requirements Mandatory requirements The module should be valid which means:</description>
     </item>
     
     <item>

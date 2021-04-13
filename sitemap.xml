@@ -182,9 +182,6 @@
     <loc>https://devdocs.prestashop.com/1.7/webservice/tutorials/prestashop-webservice-lib/</loc>
     <lastmod>2020-06-18T12:44:09+02:00</lastmod>
   </url><url>
-    <loc>https://devdocs.prestashop.com/1.7/project/release/release-a-native-ps-module/</loc>
-    <lastmod>2020-07-16T17:36:31+02:00</lastmod>
-  </url><url>
     <loc>https://devdocs.prestashop.com/1.7/webservice/tutorials/prestashop-webservice-lib/retrieve-resource/</loc>
     <lastmod>2020-06-18T12:44:09+02:00</lastmod>
   </url><url>
@@ -706,6 +703,9 @@
   </url><url>
     <loc>https://devdocs.prestashop.com/1.7/development/native-modules/</loc>
     <lastmod>2020-11-25T10:01:35+01:00</lastmod>
+  </url><url>
+    <loc>https://devdocs.prestashop.com/1.7/project/maintainers-guide/release-a-native-ps-module/</loc>
+    <lastmod>2021-04-12T22:20:04+02:00</lastmod>
   </url><url>
     <loc>https://devdocs.prestashop.com/1.7/modules/sample-modules/</loc>
     <lastmod>2020-04-08T10:52:01+02:00</lastmod>
