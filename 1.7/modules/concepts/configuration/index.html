@@ -21,16 +21,16 @@
     <title>Configuration :: PrestaShop Developer Documentation</title>
 
     
-    <link href="/css/font-awesome.min.css?1619687336" rel="stylesheet">
-    <link href="/css/syntax-github.css?1619687336" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1619687336" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1619687336" rel="stylesheet">
-    <link href="/css/auto-complete.css?1619687336" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1619765443" rel="stylesheet">
+    <link href="/css/syntax-github.css?1619765443" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1619765443" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1619765443" rel="stylesheet">
+    <link href="/css/auto-complete.css?1619765443" rel="stylesheet">
     
-    <link href="/style.css?1619687336" rel="stylesheet">
+    <link href="/style.css?1619765443" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
 
-    <script src="/js/jquery-3.3.1.min.js?1619687336"></script>
+    <script src="/js/jquery-3.3.1.min.js?1619765443"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -61,14 +61,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1619687336"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1619687336"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1619765443"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1619765443"></script>
 <script type="text/javascript">
     
         var baseurl = '\/';
     
 </script>
-<script type="text/javascript" src="/js/search.js?1619687336"></script>
+<script type="text/javascript" src="/js/search.js?1619765443"></script>
 
     
   </div>
@@ -10647,9 +10647,9 @@
               <ul>
                 <li><a href="#single-key">Single key</a></li>
                 <li><a href="#multiple-keys">Multiple keys</a></li>
+                <li><a href="#delete-a-key">Delete a key</a></li>
               </ul>
             </li>
-            <li><a href="#use-widgets">Use widgets</a></li>
           </ul>
         </li>
       </ul>
@@ -16927,15 +16927,19 @@ If the key does not exist, the returned value will be null.</p>
   <span class="s1">&#39;PS_VERSION_DB&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;1.7.4.0&#39;</span><span class="p">,</span>
   <span class="s1">&#39;UNKNOWN_KEY&#39;</span> <span class="o">=&gt;</span> <span class="k">null</span><span class="p">,</span>
 <span class="p">)</span>
-</code></pre></div><h3 id="use-widgets">Use widgets</h3>
+</code></pre></div><h4 id="delete-a-key">Delete a key</h4>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span>
+<span class="nx">Configuration</span><span class="o">::</span><span class="na">deleteByName</span><span class="p">(</span><span class="nx">string</span> <span class="nv">$key</span><span class="p">);</span>
+</code></pre></div><p><code>$key</code> is the name of the configuration data to delete. The method returns <code>true</code>
+if the key is removed, <code>false</code> otherwise.</p>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on June 16, 2020
+  Last updated on April 29, 2021
   :
-  <a href="https://github.com/PrestaShop/docs/commit/9bf3ecbec1491aed5e3d43a44496c9e0c96e2e34">"Use native syntax highlighter &#43; fix highlight for PHP blocks" (9bf3ecbe)</a>
+  <a href="https://github.com/PrestaShop/docs/commit/04dc1cd80bb334157ebe6d332e72d6a38ae34e10">"Update configuration.md" (04dc1cd8)</a>
   
 </div>
 
@@ -16956,19 +16960,19 @@ If the key does not exist, the returned value will be null.</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1619687337"></script>
-    <script src="/js/perfect-scrollbar.min.js?1619687337"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1619687337"></script>
-    <script src="/js/jquery.sticky.js?1619687337"></script>
-    <script src="/js/featherlight.min.js?1619687337"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1619687337"></script>
-    <script src="/js/modernizr.custom-3.6.0.js?1619687337"></script>
-    <script src="/js/learn.js?1619687337"></script>
-    <script src="/js/hugo-learn.js?1619687337"></script>
+    <script src="/js/clipboard.min.js?1619765443"></script>
+    <script src="/js/perfect-scrollbar.min.js?1619765443"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1619765443"></script>
+    <script src="/js/jquery.sticky.js?1619765443"></script>
+    <script src="/js/featherlight.min.js?1619765443"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1619765443"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1619765443"></script>
+    <script src="/js/learn.js?1619765443"></script>
+    <script src="/js/hugo-learn.js?1619765443"></script>
     
-    <script src="/main.js?1619687337"></script>
-    <link href="/mermaid/mermaid.css?1619687337" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1619687337"></script>
+    <script src="/main.js?1619765443"></script>
+    <link href="/mermaid/mermaid.css?1619765443" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1619765443"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
