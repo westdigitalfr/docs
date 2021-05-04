@@ -21,16 +21,16 @@
     <title>Minor release lifecycle :: PrestaShop Developer Documentation</title>
 
     
-    <link href="/css/font-awesome.min.css?1620142893" rel="stylesheet">
-    <link href="/css/syntax-github.css?1620142893" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1620142893" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1620142893" rel="stylesheet">
-    <link href="/css/auto-complete.css?1620142893" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1620146033" rel="stylesheet">
+    <link href="/css/syntax-github.css?1620146033" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1620146033" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1620146033" rel="stylesheet">
+    <link href="/css/auto-complete.css?1620146033" rel="stylesheet">
     
-    <link href="/style.css?1620142893" rel="stylesheet">
+    <link href="/style.css?1620146033" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
 
-    <script src="/js/jquery-3.3.1.min.js?1620142893"></script>
+    <script src="/js/jquery-3.3.1.min.js?1620146033"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -61,14 +61,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1620142893"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1620142893"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1620146033"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1620146033"></script>
 <script type="text/javascript">
     
         var baseurl = '\/';
     
 </script>
-<script type="text/javascript" src="/js/search.js?1620142893"></script>
+<script type="text/javascript" src="/js/search.js?1620146033"></script>
 
     
   </div>
@@ -16931,7 +16931,8 @@
 <p>During this phase, no new items can be added to the version&rsquo;s scope, unless they are bugs related to code changes performed during the development of this version – called <em>regressions</em>). However, this is a <em>Feature Freeze</em>, not a <em>Code Freeze</em>, so some older bugs may be added to the scope if it is considered opportune to fix them quickly before the release is out (e.g. security fixes).</p>
 <h2 id="feature-freeze">Feature Freeze</h2>
 <p>Feature freeze means that all features of this version have been done and no new ones may be accepted in its scope. The project enters a phase of <em>stabilization</em> whose aim is to identify and fix all regressions) before it&rsquo;s released.</p>
-<p>Once this phase is started, Core maintainers create a git branch from <code>develop</code> branch which will carry the work to be done until the release (for 1.7.7.0, the branch name was <code>1.7.7.x</code>). From this moment on, only bug fixes can be merged into this branch. Incidentally, this is also the branch where all future patch versions for this minor version will be developed on (hence the <code>.x</code> at the end).</p>
+<p>Once this phase is started, Core maintainers create a git branch from <code>develop</code> branch which will carry the work to be done until the release (for 1.7.7.0, the branch name was <code>1.7.7.x</code>). From this moment on, <strong>only changes that fix regressions introduced in that same branch can be merged into this branch</strong>.</p>
+<p>Incidentally, this is also the branch where all future patch versions for this minor version will be developed on (hence the <code>.x</code> at the end).</p>
 <p>Also, since stabilization is performed in a separate branch (<code>1.7.7.x</code> in our example), development for the next minor release (1.7.8 in our example) can start on the <code>develop</code> branch. This means that the development of any given minor version development actually starts (albeit slowly) precisely the moment the previous version enters feature freeze.</p>
 <p>The QA team picks up the latest <a href="https://nightly.prestashop.com/">nightly build</a> and starts a huge test campaign. The goal of this campaign is to find and register all regressions of this build.</p>
 <p>As the QA team verifies the build, they will populate the Kanban with all the bugs they find.
@@ -16989,9 +16990,9 @@ If bugs are reported, they are fixed in an RC2 build, and so on until a build ha
 <footer class="article-footer">
 	
 <div>
-  Last updated on September 21, 2020
+  Last updated on May 4, 2021
   :
-  <a href="https://github.com/PrestaShop/docs/commit/f34432b379de02f64732f2baf1a4691c102ad9f0">"spelling mistake" (f34432b3)</a>
+  <a href="https://github.com/PrestaShop/docs/commit/2205552acc424164ee03c1a0322eb960fd6083ad">"Update release process - only regressions fixed in stabilization" (2205552a)</a>
   
 </div>
 
@@ -17012,19 +17013,19 @@ If bugs are reported, they are fixed in an RC2 build, and so on until a build ha
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1620142893"></script>
-    <script src="/js/perfect-scrollbar.min.js?1620142893"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1620142893"></script>
-    <script src="/js/jquery.sticky.js?1620142893"></script>
-    <script src="/js/featherlight.min.js?1620142893"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1620142893"></script>
-    <script src="/js/modernizr.custom-3.6.0.js?1620142893"></script>
-    <script src="/js/learn.js?1620142893"></script>
-    <script src="/js/hugo-learn.js?1620142893"></script>
+    <script src="/js/clipboard.min.js?1620146033"></script>
+    <script src="/js/perfect-scrollbar.min.js?1620146033"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1620146033"></script>
+    <script src="/js/jquery.sticky.js?1620146033"></script>
+    <script src="/js/featherlight.min.js?1620146033"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1620146033"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1620146033"></script>
+    <script src="/js/learn.js?1620146033"></script>
+    <script src="/js/hugo-learn.js?1620146033"></script>
     
-    <script src="/main.js?1620142893"></script>
-    <link href="/mermaid/mermaid.css?1620142893" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1620142893"></script>
+    <script src="/main.js?1620146033"></script>
+    <link href="/mermaid/mermaid.css?1620146033" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1620146033"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
