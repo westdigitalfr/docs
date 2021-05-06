@@ -21,16 +21,16 @@
     <title>CQRS - Commands and Queries :: PrestaShop Developer Documentation</title>
 
     
-    <link href="/css/font-awesome.min.css?1620310945" rel="stylesheet">
-    <link href="/css/syntax-github.css?1620310945" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1620310945" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1620310945" rel="stylesheet">
-    <link href="/css/auto-complete.css?1620310945" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1620314598" rel="stylesheet">
+    <link href="/css/syntax-github.css?1620314598" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1620314598" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1620314598" rel="stylesheet">
+    <link href="/css/auto-complete.css?1620314598" rel="stylesheet">
     
-    <link href="/style.css?1620310945" rel="stylesheet">
+    <link href="/style.css?1620314598" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
 
-    <script src="/js/jquery-3.3.1.min.js?1620310945"></script>
+    <script src="/js/jquery-3.3.1.min.js?1620314598"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -61,14 +61,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1620310945"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1620310945"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1620314598"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1620314598"></script>
 <script type="text/javascript">
     
         var baseurl = '\/';
     
 </script>
-<script type="text/javascript" src="/js/search.js?1620310945"></script>
+<script type="text/javascript" src="/js/search.js?1620314598"></script>
 
     
   </div>
@@ -1057,6 +1057,27 @@
       <li data-nav-id="/1.7/development/architecture/domain/cqrs/" title="CQRS - Commands and Queries" class="dd-item active currentPage">
         <a href="/1.7/development/architecture/domain/cqrs/">
         CQRS
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/1.7/development/architecture/domain/domain-services/" title="Domain services" class="dd-item ">
+        <a href="/1.7/development/architecture/domain/domain-services/">
+        Domain services
         
         </a>
     </li>
@@ -11353,6 +11374,21 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -16959,7 +16995,7 @@
 
   
   
-  <a class="nav nav-next" href="/1.7/development/architecture/domain/data-transfer-objects/" title="Data Transfer Objects" style="margin-right: 0px;">
+  <a class="nav nav-next" href="/1.7/development/architecture/domain/domain-services/" title="Domain services" style="margin-right: 0px;">
     <i class="fa fa-chevron-right"></i>
     Next article
   </a>
@@ -17013,9 +17049,9 @@
 <li>A <code>Command</code> describes a <strong>single</strong> action. It DOES NOT perform it.</li>
 <li>A <code>Command</code> receives only primitive types on input (int, float, string, bool and array).</li>
 <li>For every <code>Command</code> there MUST be at least one <code>CommandHandler</code> whose role is to execute that <code>Command</code>.</li>
+<li>A <code>CommandHandler</code> acts as a port to a Core, therefore it SHOULD NOT handle the domain logic itself, but orchestrate the necessary <a href="/1.7/development/architecture/domain/domain-services/">services</a> instead.</li>
 <li>A <code>CommandHandler</code> MUST be placed in the <code>Adapter</code> namespace as long as it has legacy dependencies.</li>
 <li>A <code>CommandHandler</code> SHOULD NOT return anything on success, and SHOULD throw a typed <code>Exception</code> on failure. The &ldquo;no return on success&rdquo; rule can be broken only when creating entities.</li>
-<li>A <code>CommandHandler</code> MUST use the existing <code>ObjectModel</code> for writes as long as those classes exist.</li>
 <li>A <code>CommandHandler</code> MUST implement an interface containing a single public method like this:</li>
 </ol>
 <div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span>
@@ -17038,7 +17074,7 @@
 </span><span class="sd"> *
 </span><span class="sd"> * @return TypeOfReturn
 </span><span class="sd"> */</span>
-<span class="k">public</span> <span class="k">function</span> <span class="nf">handle</span><span class="p">(</span><span class="nx">NameOfTheQuery</span> <span class="nv">$query</span><span class="p">);</span>
+<span class="k">public</span> <span class="k">function</span> <span class="nf">handle</span><span class="p">(</span><span class="nx">NameOfTheQuery</span> <span class="nv">$query</span><span class="p">)</span><span class="o">:</span> <span class="nx">TypeOfReturn</span><span class="p">;</span>
 </code></pre></div><h2 id="command-and-query-buses">Command and Query buses</h2>
 <p>Command bus is a pattern used to map <code>Commands</code> and <code>Queries</code> to <code>CommandHandlers</code> and <code>QueryHandlers</code>. PrestaShop defines it&rsquo;s own <code>CommandBusInterface</code> and implements it using <a href="https://tactician.thephpleague.com/">Tactician command bus library</a>.</p>
 <p>PrestaShop uses 2 commands buses:</p>
@@ -17066,9 +17102,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on June 16, 2020
+  Last updated on May 6, 2021
   :
-  <a href="https://github.com/PrestaShop/docs/commit/9bf3ecbec1491aed5e3d43a44496c9e0c96e2e34">"Use native syntax highlighter &#43; fix highlight for PHP blocks" (9bf3ecbe)</a>
+  <a href="https://github.com/PrestaShop/docs/commit/5f861ad4ec5e1b8ed25e01c3def7eabc885747f1">"Apply suggestions from code review" (5f861ad4e)</a>
   
 </div>
 
@@ -17089,19 +17125,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1620310945"></script>
-    <script src="/js/perfect-scrollbar.min.js?1620310945"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1620310945"></script>
-    <script src="/js/jquery.sticky.js?1620310945"></script>
-    <script src="/js/featherlight.min.js?1620310945"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1620310945"></script>
-    <script src="/js/modernizr.custom-3.6.0.js?1620310945"></script>
-    <script src="/js/learn.js?1620310945"></script>
-    <script src="/js/hugo-learn.js?1620310945"></script>
+    <script src="/js/clipboard.min.js?1620314598"></script>
+    <script src="/js/perfect-scrollbar.min.js?1620314598"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1620314598"></script>
+    <script src="/js/jquery.sticky.js?1620314598"></script>
+    <script src="/js/featherlight.min.js?1620314598"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1620314598"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1620314598"></script>
+    <script src="/js/learn.js?1620314598"></script>
+    <script src="/js/hugo-learn.js?1620314598"></script>
     
-    <script src="/main.js?1620310945"></script>
-    <link href="/mermaid/mermaid.css?1620310945" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1620310945"></script>
+    <script src="/main.js?1620314598"></script>
+    <link href="/mermaid/mermaid.css?1620314598" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1620314598"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

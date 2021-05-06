@@ -8,29 +8,29 @@
 <meta name="twitter:image" content="https://devdocs.prestashop.com/images/social-cover.jpg" />
 <meta name="twitter:site" content="@prestashop" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Extending Symfony form with upload image field" />
+<meta name="twitter:title" content="Domain services" />
 <meta name="twitter:description" content="Learn how to extend, modify and test PrestaShop, create modules, themes, and more.">
 <meta property="og:image" content="https://devdocs.prestashop.com/images/social-cover.jpg" />
 <meta property="og:site_name" content="PrestaShop" />
-<meta property="og:title" content="Extending Symfony form with upload image field" />
+<meta property="og:title" content="Domain services" />
 <meta property="og:description" content="Learn how to extend, modify and test PrestaShop, create modules, themes, and more.">
 <meta name="author" content="PrestaShop">
 
     <link rel="icon" href="/images/preston-logo@2x.png" type="image/png">
 
-    <title>Extending Symfony form with upload image field :: PrestaShop Developer Documentation</title>
+    <title>Domain services :: PrestaShop Developer Documentation</title>
 
     
-    <link href="/css/font-awesome.min.css?1620314603" rel="stylesheet">
-    <link href="/css/syntax-github.css?1620314603" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1620314603" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1620314603" rel="stylesheet">
-    <link href="/css/auto-complete.css?1620314603" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1620314598" rel="stylesheet">
+    <link href="/css/syntax-github.css?1620314598" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1620314598" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1620314598" rel="stylesheet">
+    <link href="/css/auto-complete.css?1620314598" rel="stylesheet">
     
-    <link href="/style.css?1620314603" rel="stylesheet">
+    <link href="/style.css?1620314598" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
 
-    <script src="/js/jquery-3.3.1.min.js?1620314603"></script>
+    <script src="/js/jquery-3.3.1.min.js?1620314598"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -44,7 +44,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/1.7/modules/sample-modules/extending-sf-form-with-upload-image-field/">
+  <body class="" data-url="/1.7/development/architecture/domain/domain-services/">
     <nav id="sidebar" class="">
 
 
@@ -61,14 +61,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1620314603"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1620314603"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1620314598"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1620314598"></script>
 <script type="text/javascript">
     
         var baseurl = '\/';
     
 </script>
-<script type="text/javascript" src="/js/search.js?1620314603"></script>
+<script type="text/javascript" src="/js/search.js?1620314598"></script>
 
     
   </div>
@@ -432,7 +432,7 @@
     
     
     <li data-nav-id="/1.7/development/" title="Core Development Reference" class="dd-item
-        
+        parent
         
         
         isParent
@@ -445,7 +445,7 @@
           
 
           
-            <i class="fa fa-angle-down"></i>
+            <i class="fa fa-angle-up"></i>
           
       </a>
       
@@ -533,7 +533,7 @@
     
     
     <li data-nav-id="/1.7/development/architecture/" title="The PrestaShop architecture" class="dd-item
-        
+        parent
         
         
         isParent
@@ -546,7 +546,7 @@
           
 
           
-            <i class="fa fa-angle-down"></i>
+            <i class="fa fa-angle-up"></i>
           
       </a>
       
@@ -1021,7 +1021,7 @@
     
     
     <li data-nav-id="/1.7/development/architecture/domain/" title="Domain-driven architecture" class="dd-item
-        
+        parent
         
         
         isParent
@@ -1034,7 +1034,7 @@
           
 
           
-            <i class="fa fa-angle-down"></i>
+            <i class="fa fa-angle-up"></i>
           
       </a>
       
@@ -1075,7 +1075,7 @@
  
   
     
-      <li data-nav-id="/1.7/development/architecture/domain/domain-services/" title="Domain services" class="dd-item ">
+      <li data-nav-id="/1.7/development/architecture/domain/domain-services/" title="Domain services" class="dd-item active currentPage">
         <a href="/1.7/development/architecture/domain/domain-services/">
         Domain services
         
@@ -4220,7 +4220,7 @@
     
     
     <li data-nav-id="/1.7/modules/" title="PrestaShop modules" class="dd-item
-        parent
+        
         
         
         isParent
@@ -4233,7 +4233,7 @@
           
 
           
-            <i class="fa fa-angle-up"></i>
+            <i class="fa fa-angle-down"></i>
           
       </a>
       
@@ -5880,7 +5880,7 @@
     
     
     <li data-nav-id="/1.7/modules/sample-modules/" title="Sample modules" class="dd-item
-        parent
+        
         
         
         isParent
@@ -5893,7 +5893,7 @@
           
 
           
-            <i class="fa fa-angle-up"></i>
+            <i class="fa fa-angle-down"></i>
           
       </a>
       
@@ -6043,7 +6043,7 @@
  
   
     
-      <li data-nav-id="/1.7/modules/sample-modules/extending-sf-form-with-upload-image-field/" title="Extending Symfony form with upload image field" class="dd-item active currentPage">
+      <li data-nav-id="/1.7/modules/sample-modules/extending-sf-form-with-upload-image-field/" title="Extending Symfony form with upload image field" class="dd-item ">
         <a href="/1.7/modules/sample-modules/extending-sf-form-with-upload-image-field/">
         Extending Symfony form with upload image field
         
@@ -10645,7 +10645,7 @@
       
       
       <div id="top-github-link">
-        <a class="github-link" title='Improve this page' href="https://github.com/PrestaShop/docs/edit/master/src/content/1.7/modules/sample-modules/extending-sf-form-with-upload-image-field.md" target="blank">
+        <a class="github-link" title='Improve this page' href="https://github.com/PrestaShop/docs/edit/master/src/content/1.7/development/architecture/domain/domain-services.md" target="blank">
           <i class="fa fa-pencil"></i>
           <span id="top-github-link-text">Improve this page</span>
         </a>
@@ -10682,7 +10682,13 @@
               
             
             
-              <a href='/'>Home</a> > <a href='/1.7/'>PrestaShop 1.7</a> > <a href='/1.7/modules/'>Modules</a> > <a href='/1.7/modules/sample-modules/'>Sample modules</a> > Extending Symfony form with upload image field
+              
+              
+            
+            
+              <a href='/'>Home</a> > <a href='/1.7/'>PrestaShop 1.7</a> > <a href='/1.7/development/'>Core Reference</a> > <a href='/1.7/development/architecture/'>Architecture</a> > <a href='/1.7/development/architecture/domain/'>Domain-driven architecture</a> > Domain services
+            
+          
             
           
             
@@ -10711,13 +10717,13 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#extending-symfony-form-with-upload-image-field">Extending Symfony form with upload image field</a>
+    <li><a href="#domain-services">Domain services</a></li>
+    <li><a href="#code-examples">Code examples</a>
       <ul>
-        <li><a href="#introduction">Introduction</a>
-          <ul>
-            <li><a href="#main-module-class">Main module class</a></li>
-          </ul>
-        </li>
+        <li><a href="#objectmodel-repositories"><code>ObjectModel</code> repositories</a></li>
+        <li><a href="#objectmodel-validators"><code>ObjectModel</code> validators</a></li>
+        <li><a href="#product-domain-services">Product domain services</a></li>
+        <li><a href="#service-usage-in-commandhandler-examples">Service usage in <code>CommandHandler</code> examples</a></li>
       </ul>
     </li>
   </ul>
@@ -10964,2192 +10970,6 @@
     
       
         
-      
-      
-      
-      
-        
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-        
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-        
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-        
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-        
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-        
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-        
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-    
-  
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-        
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-        
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-        
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-        
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-        
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-        
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
         
       
       
@@ -13187,886 +11007,8 @@
       
       
       
-        
-      
       
 
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-        
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-        
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-        
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
       
     
   
@@ -14131,6 +11073,53 @@
     
   
       
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+        
+      
+      
+
+      
         
     
     
@@ -14161,6 +11150,141 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -14177,11 +11301,36 @@
       
 
       
+        
     
-  
+    
+      
+        
+          
+          
+        
+      
+      
+      
+      
+      
+
       
     
   
+      
+        
+    
+    
+      
+        
+        
+      
+      
+      
+      
+      
+
       
     
   
@@ -14198,6 +11347,2867 @@
       
       
       
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+        
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+        
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+        
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+        
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+    
+  
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+        
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+        
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+        
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+        
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+        
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+        
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+        
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+        
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+        
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+        
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+        
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+        
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
         
       
       
@@ -16979,7 +16989,7 @@
 
   
   
-  <a class="nav nav-next" href="/1.7/themes/" title="Themes" style="margin-right: 0px;">
+  <a class="nav nav-next" href="/1.7/development/architecture/domain/data-transfer-objects/" title="Data Transfer Objects" style="margin-right: 0px;">
     <i class="fa fa-chevron-right"></i>
     Next article
   </a>
@@ -16999,575 +17009,62 @@
 
 
 
-<h1 id="extending-symfony-form-with-upload-image-field">Extending Symfony form with upload image field</h1>
-
-<div class="magic-version-pill" data-version="1.7.7" data-title="New in PrestaShop 1.7.7"></div>
-
-
-<h2 id="introduction">Introduction</h2>
-<p>In this tutorial we are going to build a module which extends <code>Suppliers</code> form
-(SELL -&gt; Catalog -&gt; Brands &amp; Suppliers). This module will address the following need
-&ldquo;I&rsquo;d like to add an &lsquo;upload image&rsquo; field to the Supplier Add/Edit form because I want to
-display a new logo for each supplier on my shop. So this new field must allow me to add,
-edit and delete image files linked to a supplier. Obviously I expect the uploaded files
-to be stored in a consistent way with how PrestaShop usually stores such files.&rdquo;</p>
-<p>We are going to create the module to address this need by using PrestaShop hooks in
-the Add/Edit Supplier Back-Office page and we will follow some software development best
-practices such as SOLID principles to make our code as supported as possible !</p>
-<p>You will learn how to create:</p>
-<ul>
-<li>Main module class: main module entry point and hook entry point</li>
-<li>Installer class: responsible for module installation and uninstallation process</li>
-<li>Create Symfony controller: needed as we add a new &ldquo;delete image&rdquo; controller action</li>
-<li>Doctrine entity: this model is responsible for the image data persistence</li>
-<li>Repository class: this model is for image database search and retrieve</li>
-<li>Image Uploader class: this class is responsible for image upload process</li>
-<li>Twig View template: needed for display</li>
-</ul>
-<h3 id="main-module-class">Main module class</h3>
-<p>Let&rsquo;s create main module class <code>DemoExtendSymfonyForm2</code></p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span>
-<span class="c1">// since this module is compatible with PS 1.7.7 and later, we
-</span><span class="c1">// can use PHP7 strict types because PHP5 support has been dropped for PS 1.7.7
-</span><span class="c1"></span><span class="k">declare</span><span class="p">(</span><span class="nx">strict_types</span><span class="o">=</span><span class="mi">1</span><span class="p">);</span>
-
-<span class="c1">// use statements
-</span><span class="c1"></span>
-<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">defined</span><span class="p">(</span><span class="s1">&#39;_PS_VERSION_&#39;</span><span class="p">))</span> <span class="p">{</span>
-    <span class="k">exit</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="c1">// needed as use Composer to autoload this module
-</span><span class="c1"></span><span class="k">require_once</span> <span class="no">__DIR__</span><span class="o">.</span><span class="s1">&#39;/vendor/autoload.php&#39;</span><span class="p">;</span>
-
-<span class="sd">/**
-</span><span class="sd"> * Class demoextendsymfonyform
-</span><span class="sd"> */</span>
-<span class="k">class</span> <span class="nc">DemoExtendSymfonyForm2</span> <span class="k">extends</span> <span class="nx">Module</span>
-<span class="p">{</span>
-    <span class="k">private</span> <span class="k">const</span> <span class="no">SUPPLIER_EXTRA_IMAGE_PATH</span> <span class="o">=</span> <span class="s1">&#39;/img/su/&#39;</span><span class="p">;</span>
-
-    <span class="k">public</span> <span class="k">function</span> <span class="fm">__construct</span><span class="p">()</span>
-    <span class="p">{</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">name</span> <span class="o">=</span> <span class="s1">&#39;demoextendsymfonyform2&#39;</span><span class="p">;</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">author</span> <span class="o">=</span> <span class="s1">&#39;PrestaShop&#39;</span><span class="p">;</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">version</span> <span class="o">=</span> <span class="s1">&#39;1.0.0&#39;</span><span class="p">;</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">ps_versions_compliancy</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;min&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;1.7.7.0&#39;</span><span class="p">,</span> <span class="s1">&#39;max&#39;</span> <span class="o">=&gt;</span> <span class="nx">_PS_VERSION_</span><span class="p">];</span>
-
-        <span class="k">parent</span><span class="o">::</span><span class="na">__construct</span><span class="p">();</span>
-
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">displayName</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">l</span><span class="p">(</span><span class="s1">&#39;Demo Symfony Forms #2&#39;</span><span class="p">);</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">description</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">l</span><span class="p">(</span>
-            <span class="s1">&#39;Demonstration of how to add an image upload field inside the Symfony form&#39;</span>
-        <span class="p">);</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div><p>Let&rsquo;s create Installer class responsible for hooks registration and database management:</p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span>
-<span class="k">declare</span><span class="p">(</span><span class="nx">strict_types</span><span class="o">=</span><span class="mi">1</span><span class="p">);</span>
-
-<span class="k">namespace</span> <span class="nx">PrestaShop\Module\DemoExtendSymfonyForm\Install</span><span class="p">;</span>
-
-
-<span class="k">use</span> <span class="nx">Db</span><span class="p">;</span>
-<span class="k">use</span> <span class="nx">Module</span><span class="p">;</span>
-
-<span class="sd">/**
-</span><span class="sd"> * Class Installer
-</span><span class="sd"> * @package PrestaShop\Module\DemoExtendSymfonyForm\Install
-</span><span class="sd"> */</span>
-<span class="k">class</span> <span class="nc">Installer</span>
-<span class="p">{</span>
-    <span class="sd">/**
-</span><span class="sd">     * Module&#39;s installation entry point.
-</span><span class="sd">     *
-</span><span class="sd">     * @param Module $module
-</span><span class="sd">     *
-</span><span class="sd">     * @return bool
-</span><span class="sd">     */</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">install</span><span class="p">(</span><span class="nx">Module</span> <span class="nv">$module</span><span class="p">)</span><span class="o">:</span> <span class="nx">bool</span>
-    <span class="p">{</span>
-        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nv">$this</span><span class="o">-&gt;</span><span class="na">registerHooks</span><span class="p">(</span><span class="nv">$module</span><span class="p">))</span> <span class="p">{</span>
-            <span class="k">return</span> <span class="k">false</span><span class="p">;</span>
-        <span class="p">}</span>
-
-        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nv">$this</span><span class="o">-&gt;</span><span class="na">installDatabase</span><span class="p">())</span> <span class="p">{</span>
-            <span class="k">return</span> <span class="k">false</span><span class="p">;</span>
-        <span class="p">}</span>
-
-        <span class="k">return</span> <span class="k">true</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * Module&#39;s uninstallation entry point.
-</span><span class="sd">     *
-</span><span class="sd">     * @return bool
-</span><span class="sd">     */</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">uninstall</span><span class="p">()</span><span class="o">:</span> <span class="nx">bool</span>
-    <span class="p">{</span>
-        <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">uninstallDatabase</span><span class="p">();</span>
-    <span class="p">}</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * Install the database modifications required for this module.
-</span><span class="sd">     *
-</span><span class="sd">     * @return bool
-</span><span class="sd">     */</span>
-    <span class="k">private</span> <span class="k">function</span> <span class="nf">installDatabase</span><span class="p">()</span><span class="o">:</span> <span class="nx">bool</span>
-    <span class="p">{</span>
-        <span class="nv">$queries</span> <span class="o">=</span> <span class="p">[</span>
-            <span class="s1">&#39;CREATE TABLE IF NOT EXISTS `&#39;</span><span class="o">.</span><span class="nx">_DB_PREFIX_</span><span class="o">.</span><span class="s1">&#39;supplier_extra_image` (
-</span><span class="s1">              `id_extra_image` int(11) NOT NULL AUTO_INCREMENT,
-</span><span class="s1">              `id_supplier` int(11) NOT NULL,
-</span><span class="s1">              `image_name` varchar(64) NOT NULL,
-</span><span class="s1">              PRIMARY KEY (`id_extra_image`)
-</span><span class="s1">            ) ENGINE=&#39;</span><span class="o">.</span><span class="nx">_MYSQL_ENGINE_</span><span class="o">.</span><span class="s1">&#39; DEFAULT CHARSET=utf8;&#39;</span><span class="p">,</span>
-        <span class="p">];</span>
-
-        <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">executeQueries</span><span class="p">(</span><span class="nv">$queries</span><span class="p">);</span>
-    <span class="p">}</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * Uninstall database modifications.
-</span><span class="sd">     *
-</span><span class="sd">     * @return bool
-</span><span class="sd">     */</span>
-    <span class="k">private</span> <span class="k">function</span> <span class="nf">uninstallDatabase</span><span class="p">()</span><span class="o">:</span> <span class="nx">bool</span>
-    <span class="p">{</span>
-        <span class="nv">$queries</span> <span class="o">=</span> <span class="p">[</span>
-            <span class="s1">&#39;DROP TABLE IF EXISTS `&#39;</span><span class="o">.</span><span class="nx">_DB_PREFIX_</span><span class="o">.</span><span class="s1">&#39;supplier_extra_image`&#39;</span><span class="p">,</span>
-        <span class="p">];</span>
-
-        <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">executeQueries</span><span class="p">(</span><span class="nv">$queries</span><span class="p">);</span>
-    <span class="p">}</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * Register hooks for the module.
-</span><span class="sd">     *
-</span><span class="sd">     * @param Module $module
-</span><span class="sd">     *
-</span><span class="sd">     * @return bool
-</span><span class="sd">     */</span>
-    <span class="k">private</span> <span class="k">function</span> <span class="nf">registerHooks</span><span class="p">(</span><span class="nx">Module</span> <span class="nv">$module</span><span class="p">)</span><span class="o">:</span> <span class="nx">bool</span>
-    <span class="p">{</span>
-        <span class="nv">$hooks</span> <span class="o">=</span> <span class="p">[</span>
-            <span class="s1">&#39;actionSupplierFormBuilderModifier&#39;</span><span class="p">,</span>
-            <span class="s1">&#39;actionAfterCreateSupplierFormHandler&#39;</span><span class="p">,</span>
-            <span class="s1">&#39;actionAfterUpdateSupplierFormHandler&#39;</span><span class="p">,</span>
-        <span class="p">];</span>
-
-        <span class="k">return</span> <span class="p">(</span><span class="nx">bool</span><span class="p">)</span> <span class="nv">$module</span><span class="o">-&gt;</span><span class="na">registerHook</span><span class="p">(</span><span class="nv">$hooks</span><span class="p">);</span>
-    <span class="p">}</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * A helper that executes multiple database queries.
-</span><span class="sd">     *
-</span><span class="sd">     * @param array $queries
-</span><span class="sd">     *
-</span><span class="sd">     * @return bool
-</span><span class="sd">     */</span>
-    <span class="k">private</span> <span class="k">function</span> <span class="nf">executeQueries</span><span class="p">(</span><span class="k">array</span> <span class="nv">$queries</span><span class="p">)</span><span class="o">:</span> <span class="nx">bool</span>
-    <span class="p">{</span>
-        <span class="k">foreach</span> <span class="p">(</span><span class="nv">$queries</span> <span class="k">as</span> <span class="nv">$query</span><span class="p">)</span> <span class="p">{</span>
-            <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">Db</span><span class="o">::</span><span class="na">getInstance</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">execute</span><span class="p">(</span><span class="nv">$query</span><span class="p">))</span> <span class="p">{</span>
-                <span class="k">return</span> <span class="k">false</span><span class="p">;</span>
-            <span class="p">}</span>
-        <span class="p">}</span>
-
-        <span class="k">return</span> <span class="k">true</span><span class="p">;</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div><p>Let&rsquo;s use <code>Installer</code> class inside the main module class by adding code snippet
-below to <code>DemoExtendSymfonyForm2</code> class.</p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span>
-    <span class="sd">/**
-</span><span class="sd">     * @return bool
-</span><span class="sd">     */</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">install</span><span class="p">()</span>
-    <span class="p">{</span>
-        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="k">parent</span><span class="o">::</span><span class="na">install</span><span class="p">())</span> <span class="p">{</span>
-            <span class="k">return</span> <span class="k">false</span><span class="p">;</span>
-        <span class="p">}</span>
-
-        <span class="nv">$installer</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Installer</span><span class="p">();</span>
-
-        <span class="k">return</span> <span class="nv">$installer</span><span class="o">-&gt;</span><span class="na">install</span><span class="p">(</span><span class="nv">$this</span><span class="p">);</span>
-    <span class="p">}</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * @return bool
-</span><span class="sd">     */</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">uninstall</span><span class="p">()</span>
-    <span class="p">{</span>
-        <span class="nv">$installer</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Installer</span><span class="p">();</span>
-
-        <span class="k">return</span> <span class="nv">$installer</span><span class="o">-&gt;</span><span class="na">uninstall</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="k">parent</span><span class="o">::</span><span class="na">uninstall</span><span class="p">();</span>
-    <span class="p">}</span>
-</code></pre></div><p>Let&rsquo;s create <code>SupplierExtraImage</code> entity class. We use [Doctrine]
-(<a href="https://devdocs.prestashop.com/1.7/modules/concepts/doctrine/">https://devdocs.prestashop.com/1.7/modules/concepts/doctrine/</a>)
-which is available for PrestaShop modules since version 1.7.6.</p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span>
-<span class="k">declare</span><span class="p">(</span><span class="nx">strict_types</span><span class="o">=</span><span class="mi">1</span><span class="p">);</span>
-
-<span class="k">namespace</span> <span class="nx">PrestaShop\Module\DemoExtendSymfonyForm\Entity</span><span class="p">;</span>
-<span class="k">use</span> <span class="nx">Doctrine\ORM\Mapping</span> <span class="k">as</span> <span class="nx">ORM</span><span class="p">;</span>
-
-<span class="sd">/**
-</span><span class="sd"> * @ORM\Table()
-</span><span class="sd"> * @ORM\Entity(repositoryClass=&#34;PrestaShop\Module\DemoExtendSymfonyForm\Repository\SupplierExtraImageRepository&#34;)
-</span><span class="sd"> */</span>
-<span class="k">class</span> <span class="nc">SupplierExtraImage</span>
-<span class="p">{</span>
-    <span class="sd">/**
-</span><span class="sd">     * @var int
-</span><span class="sd">     *
-</span><span class="sd">     * @ORM\Id
-</span><span class="sd">     * @ORM\Column(name=&#34;id_extra_image&#34;, type=&#34;integer&#34;)
-</span><span class="sd">     * @ORM\GeneratedValue(strategy=&#34;AUTO&#34;)
-</span><span class="sd">     */</span>
-    <span class="k">private</span> <span class="nv">$id</span><span class="p">;</span>
-
-
-    <span class="sd">/**
-</span><span class="sd">     * @ORM\Column(name=&#34;id_supplier&#34;, type=&#34;integer&#34;)
-</span><span class="sd">     */</span>
-    <span class="k">private</span> <span class="nv">$supplierId</span><span class="p">;</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * @var string
-</span><span class="sd">     *
-</span><span class="sd">     * @ORM\Column(type=&#34;string&#34;)
-</span><span class="sd">     */</span>
-    <span class="k">private</span> <span class="nv">$imageName</span><span class="p">;</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * @return int
-</span><span class="sd">     */</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">getId</span><span class="p">()</span><span class="o">:</span> <span class="nx">int</span>
-    <span class="p">{</span>
-        <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">id</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * @param int $id
-</span><span class="sd">     */</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">setId</span><span class="p">(</span><span class="nx">int</span> <span class="nv">$id</span><span class="p">)</span><span class="o">:</span> <span class="nx">void</span>
-    <span class="p">{</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">id</span> <span class="o">=</span> <span class="nv">$id</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * @return mixed
-</span><span class="sd">     */</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">getSupplierId</span><span class="p">()</span>
-    <span class="p">{</span>
-        <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">supplierId</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * @param mixed $supplierId
-</span><span class="sd">     */</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">setSupplierId</span><span class="p">(</span><span class="nv">$supplierId</span><span class="p">)</span><span class="o">:</span> <span class="nx">void</span>
-    <span class="p">{</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">supplierId</span> <span class="o">=</span> <span class="nv">$supplierId</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * @return string
-</span><span class="sd">     */</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">getImageName</span><span class="p">()</span><span class="o">:</span> <span class="nx">string</span>
-    <span class="p">{</span>
-        <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">imageName</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * @param string $imageName
-</span><span class="sd">     */</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">setImageName</span><span class="p">(</span><span class="nx">string</span> <span class="nv">$imageName</span><span class="p">)</span><span class="o">:</span> <span class="nx">void</span>
-    <span class="p">{</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">imageName</span> <span class="o">=</span> <span class="nv">$imageName</span><span class="p">;</span>
-    <span class="p">}</span>
-
-<span class="p">}</span>
-</code></pre></div><p>Let&rsquo;s create <code>SupplierExtraImageRepository</code> class:</p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span>
-
-<span class="k">declare</span><span class="p">(</span><span class="nx">strict_types</span><span class="o">=</span><span class="mi">1</span><span class="p">);</span>
-
-<span class="k">namespace</span> <span class="nx">PrestaShop\Module\DemoExtendSymfonyForm\Repository</span><span class="p">;</span>
-
-<span class="k">use</span> <span class="nx">Doctrine\ORM\EntityRepository</span><span class="p">;</span>
-<span class="k">use</span> <span class="nx">PrestaShop\Module\DemoExtendSymfonyForm\Entity\SupplierExtraImage</span><span class="p">;</span>
-
-<span class="sd">/**
-</span><span class="sd"> * Class SupplierExtraImageRepository
-</span><span class="sd"> * @package PrestaShop\Module\DemoExtendSymfonyForm\Repository
-</span><span class="sd"> */</span>
-<span class="k">class</span> <span class="nc">SupplierExtraImageRepository</span> <span class="k">extends</span> <span class="nx">EntityRepository</span>
-<span class="p">{</span>
-    <span class="sd">/**
-</span><span class="sd">     * @param $supplierId
-</span><span class="sd">     * @param $imageName
-</span><span class="sd">     */</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">upsertSupplierImageName</span><span class="p">(</span><span class="nv">$supplierId</span><span class="p">,</span> <span class="nv">$imageName</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="sd">/** @var SupplierExtraImage $supplierExtraImage */</span>
-        <span class="nv">$supplierExtraImage</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">findOneBy</span><span class="p">([</span><span class="s1">&#39;supplierId&#39;</span> <span class="o">=&gt;</span> <span class="nv">$supplierId</span><span class="p">]);</span>
-        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nv">$supplierExtraImage</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nv">$supplierExtraImage</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">SupplierExtraImage</span><span class="p">();</span>
-            <span class="nv">$supplierExtraImage</span><span class="o">-&gt;</span><span class="na">setSupplierId</span><span class="p">(</span><span class="nv">$supplierId</span><span class="p">);</span>
-        <span class="p">}</span>
-        <span class="nv">$supplierExtraImage</span><span class="o">-&gt;</span><span class="na">setImageName</span><span class="p">(</span><span class="nv">$imageName</span><span class="p">);</span>
-
-        <span class="nv">$em</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">getEntityManager</span><span class="p">();</span>
-        <span class="nv">$em</span><span class="o">-&gt;</span><span class="na">persist</span><span class="p">(</span><span class="nv">$supplierExtraImage</span><span class="p">);</span>
-        <span class="nv">$em</span><span class="o">-&gt;</span><span class="na">flush</span><span class="p">();</span>
-    <span class="p">}</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * @param SupplierExtraImage $supplierExtraImage
-</span><span class="sd">     */</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">deleteExtraImage</span><span class="p">(</span><span class="nx">SupplierExtraImage</span> <span class="nv">$supplierExtraImage</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="nv">$em</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">getEntityManager</span><span class="p">();</span>
-        <span class="k">if</span> <span class="p">(</span><span class="nv">$supplierExtraImage</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nv">$em</span><span class="o">-&gt;</span><span class="na">remove</span><span class="p">(</span><span class="nv">$supplierExtraImage</span><span class="p">);</span>
-            <span class="nv">$em</span><span class="o">-&gt;</span><span class="na">flush</span><span class="p">();</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div><p>Let&rsquo;s create hook <code>hookActionSupplierFormBuilderModifier</code>
-function inside Main module class. This is a hook available for [CRUD forms]
-(<a href="https://devdocs.prestashop.com/1.7/modules/sample-modules/grid-and-identifiable-object-form-hooks-usage/">https://devdocs.prestashop.com/1.7/modules/sample-modules/grid-and-identifiable-object-form-hooks-usage/</a>) in
-PrestaShop Symfony pages.</p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span>
-    <span class="sd">/**
-</span><span class="sd">     * @param array $params
-</span><span class="sd">     */</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">hookActionSupplierFormBuilderModifier</span><span class="p">(</span><span class="k">array</span> <span class="nv">$params</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="sd">/** @var SupplierExtraImageRepository $supplierExtraImageRepository */</span>
-        <span class="nv">$supplierExtraImageRepository</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">get</span><span class="p">(</span>
-            <span class="s1">&#39;prestashop.module.demoextendsymfonyform.repository.supplier_extra_image_repository&#39;</span>
-        <span class="p">);</span>
-
-        <span class="nv">$translator</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">getTranslator</span><span class="p">();</span>
-        <span class="sd">/** @var FormBuilderInterface $formBuilder */</span>
-        <span class="nv">$formBuilder</span> <span class="o">=</span> <span class="nv">$params</span><span class="p">[</span><span class="s1">&#39;form_builder&#39;</span><span class="p">];</span>
-        <span class="c1">// we add to the Symfony form an `upload_image_file` field that will be used by BO user to upload image files
-</span><span class="c1"></span>        <span class="nv">$formBuilder</span>
-            <span class="o">-&gt;</span><span class="na">add</span><span class="p">(</span><span class="s1">&#39;upload_image_file&#39;</span><span class="p">,</span> <span class="nx">FileType</span><span class="o">::</span><span class="na">class</span><span class="p">,</span> <span class="p">[</span>
-                <span class="s1">&#39;label&#39;</span> <span class="o">=&gt;</span> <span class="nv">$translator</span><span class="o">-&gt;</span><span class="na">trans</span><span class="p">(</span><span class="s1">&#39;Upload image file&#39;</span><span class="p">,</span> <span class="p">[],</span> <span class="s1">&#39;Modules.DemoExtendSymfonyForm&#39;</span><span class="p">),</span>
-                <span class="s1">&#39;required&#39;</span> <span class="o">=&gt;</span> <span class="k">false</span><span class="p">,</span>
-            <span class="p">]);</span>
-
-        <span class="sd">/** @var SupplierExtraImage $supplierExtraImage */</span>
-        <span class="nv">$supplierExtraImage</span> <span class="o">=</span> <span class="nv">$supplierExtraImageRepository</span><span class="o">-&gt;</span><span class="na">findOneBy</span><span class="p">([</span><span class="s1">&#39;supplierId&#39;</span> <span class="o">=&gt;</span> <span class="nv">$params</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">]]);</span>
-        <span class="k">if</span> <span class="p">(</span><span class="nv">$supplierExtraImage</span> <span class="o">&amp;&amp;</span> <span class="nx">file_exists</span><span class="p">(</span><span class="nx">_PS_SUPP_IMG_DIR_</span> <span class="o">.</span> <span class="nv">$supplierExtraImage</span><span class="o">-&gt;</span><span class="na">getImageName</span><span class="p">()))</span> <span class="p">{</span>
-            <span class="c1">// When an image is already registered for this supplier, we add to the Symfony an
-</span><span class="c1"></span>            <span class="c1">// &#39;image_file&#39; to provide a preview input to BO user and also provide a &#34;delete button&#34;
-</span><span class="c1"></span>            <span class="nv">$formBuilder</span>
-                <span class="o">-&gt;</span><span class="na">add</span><span class="p">(</span><span class="s1">&#39;image_file&#39;</span><span class="p">,</span> <span class="nx">CustomContentType</span><span class="o">::</span><span class="na">class</span><span class="p">,</span> <span class="p">[</span>
-                    <span class="s1">&#39;required&#39;</span> <span class="o">=&gt;</span> <span class="k">false</span><span class="p">,</span>
-                    <span class="s1">&#39;template&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;@Modules/demoextendsymfonyform2/src/View/upload_image.html.twig&#39;</span><span class="p">,</span>
-                    <span class="s1">&#39;data&#39;</span> <span class="o">=&gt;</span> <span class="p">[</span>
-                        <span class="s1">&#39;supplierId&#39;</span> <span class="o">=&gt;</span> <span class="nv">$params</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">],</span>
-                        <span class="s1">&#39;imageUrl&#39;</span> <span class="o">=&gt;</span> <span class="nx">self</span><span class="o">::</span><span class="na">SUPPLIER_EXTRA_IMAGE_PATH</span> <span class="o">.</span> <span class="nv">$supplierExtraImage</span><span class="o">-&gt;</span><span class="na">getImageName</span><span class="p">(),</span>
-                    <span class="p">],</span>
-                <span class="p">]);</span>
-        <span class="p">}</span>
-
-    <span class="p">}</span>
-</code></pre></div><p>Let&rsquo;s create <code>SupplierExtraImageUploader</code> class:</p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span>
-<span class="k">declare</span><span class="p">(</span><span class="nx">strict_types</span><span class="o">=</span><span class="mi">1</span><span class="p">);</span>
-
-<span class="k">namespace</span> <span class="nx">PrestaShop\Module\DemoExtendSymfonyForm\Uploader</span><span class="p">;</span>
-
-<span class="k">use</span> <span class="nx">PrestaShop\Module\DemoExtendSymfonyForm\Entity\SupplierExtraImage</span><span class="p">;</span>
-<span class="k">use</span> <span class="nx">PrestaShop\Module\DemoExtendSymfonyForm\Repository\SupplierExtraImageRepository</span><span class="p">;</span>
-<span class="k">use</span> <span class="nx">PrestaShop\PrestaShop\Core\Image\Uploader\Exception\ImageOptimizationException</span><span class="p">;</span>
-<span class="k">use</span> <span class="nx">PrestaShop\PrestaShop\Core\Image\Uploader\Exception\ImageUploadException</span><span class="p">;</span>
-<span class="k">use</span> <span class="nx">PrestaShop\PrestaShop\Core\Image\Uploader\Exception\MemoryLimitException</span><span class="p">;</span>
-<span class="k">use</span> <span class="nx">PrestaShop\PrestaShop\Core\Image\Uploader\Exception\UploadedImageConstraintException</span><span class="p">;</span>
-<span class="k">use</span> <span class="nx">PrestaShop\PrestaShop\Core\Image\Uploader\ImageUploaderInterface</span><span class="p">;</span>
-<span class="k">use</span> <span class="nx">Symfony\Component\HttpFoundation\File\UploadedFile</span><span class="p">;</span>
-
-<span class="sd">/**
-</span><span class="sd"> * Class SupplierExtraImageUploader
-</span><span class="sd"> * @package PrestaShop\Module\DemoExtendSymfonyForm\Uploader
-</span><span class="sd"> */</span>
-<span class="k">class</span> <span class="nc">SupplierExtraImageUploader</span> <span class="k">implements</span> <span class="nx">ImageUploaderInterface</span>
-<span class="p">{</span>
-    <span class="sd">/** @var SupplierExtraImageRepository */</span>
-    <span class="k">private</span> <span class="nv">$supplierExtraImageRepository</span><span class="p">;</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * @param SupplierExtraImageRepository $supplierExtraImageRepository
-</span><span class="sd">     */</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="fm">__construct</span><span class="p">(</span><span class="nx">SupplierExtraImageRepository</span> <span class="nv">$supplierExtraImageRepository</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">supplierExtraImageRepository</span> <span class="o">=</span> <span class="nv">$supplierExtraImageRepository</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * @param int $supplierId
-</span><span class="sd">     * @param UploadedFile $image
-</span><span class="sd">     */</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">upload</span><span class="p">(</span><span class="nv">$supplierId</span><span class="p">,</span> <span class="nx">UploadedFile</span> <span class="nv">$image</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">checkImageIsAllowedForUpload</span><span class="p">(</span><span class="nv">$image</span><span class="p">);</span>
-        <span class="nv">$tempImageName</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">createTemporaryImage</span><span class="p">(</span><span class="nv">$image</span><span class="p">);</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">deleteOldImage</span><span class="p">(</span><span class="nv">$supplierId</span><span class="p">);</span>
-
-        <span class="nv">$originalImageName</span> <span class="o">=</span> <span class="nv">$image</span><span class="o">-&gt;</span><span class="na">getClientOriginalName</span><span class="p">();</span>
-        <span class="nv">$destination</span> <span class="o">=</span> <span class="nx">_PS_SUPP_IMG_DIR_</span> <span class="o">.</span> <span class="nv">$originalImageName</span><span class="p">;</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">uploadFromTemp</span><span class="p">(</span><span class="nv">$tempImageName</span><span class="p">,</span> <span class="nv">$destination</span><span class="p">);</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">supplierExtraImageRepository</span><span class="o">-&gt;</span><span class="na">upsertSupplierImageName</span><span class="p">(</span><span class="nv">$supplierId</span><span class="p">,</span> <span class="nv">$originalImageName</span><span class="p">);</span>
-    <span class="p">}</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * Creates temporary image from uploaded file
-</span><span class="sd">     *
-</span><span class="sd">     * @param UploadedFile $image
-</span><span class="sd">     *
-</span><span class="sd">     * @throws ImageUploadException
-</span><span class="sd">     *
-</span><span class="sd">     * @return string
-</span><span class="sd">     */</span>
-    <span class="k">protected</span> <span class="k">function</span> <span class="nf">createTemporaryImage</span><span class="p">(</span><span class="nx">UploadedFile</span> <span class="nv">$image</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="nv">$temporaryImageName</span> <span class="o">=</span> <span class="nx">tempnam</span><span class="p">(</span><span class="nx">_PS_TMP_IMG_DIR_</span><span class="p">,</span> <span class="s1">&#39;PS&#39;</span><span class="p">);</span>
-
-        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nv">$temporaryImageName</span> <span class="o">||</span> <span class="o">!</span><span class="nx">move_uploaded_file</span><span class="p">(</span><span class="nv">$image</span><span class="o">-&gt;</span><span class="na">getPathname</span><span class="p">(),</span> <span class="nv">$temporaryImageName</span><span class="p">))</span> <span class="p">{</span>
-            <span class="k">throw</span> <span class="k">new</span> <span class="nx">ImageUploadException</span><span class="p">(</span><span class="s1">&#39;Failed to create temporary image file&#39;</span><span class="p">);</span>
-        <span class="p">}</span>
-
-        <span class="k">return</span> <span class="nv">$temporaryImageName</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * Uploads resized image from temporary folder to image destination
-</span><span class="sd">     *
-</span><span class="sd">     * @param $temporaryImageName
-</span><span class="sd">     * @param $destination
-</span><span class="sd">     *
-</span><span class="sd">     * @throws ImageOptimizationException
-</span><span class="sd">     * @throws MemoryLimitException
-</span><span class="sd">     */</span>
-    <span class="k">protected</span> <span class="k">function</span> <span class="nf">uploadFromTemp</span><span class="p">(</span><span class="nv">$temporaryImageName</span><span class="p">,</span> <span class="nv">$destination</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">\ImageManager</span><span class="o">::</span><span class="na">checkImageMemoryLimit</span><span class="p">(</span><span class="nv">$temporaryImageName</span><span class="p">))</span> <span class="p">{</span>
-            <span class="k">throw</span> <span class="k">new</span> <span class="nx">MemoryLimitException</span><span class="p">(</span><span class="s1">&#39;Cannot upload image due to memory restrictions&#39;</span><span class="p">);</span>
-        <span class="p">}</span>
-
-        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">\ImageManager</span><span class="o">::</span><span class="na">resize</span><span class="p">(</span><span class="nv">$temporaryImageName</span><span class="p">,</span> <span class="nv">$destination</span><span class="p">))</span> <span class="p">{</span>
-            <span class="k">throw</span> <span class="k">new</span> <span class="nx">ImageOptimizationException</span><span class="p">(</span>
-                <span class="s1">&#39;An error occurred while uploading the image. Check your directory permissions.&#39;</span>
-            <span class="p">);</span>
-        <span class="p">}</span>
-
-        <span class="nx">unlink</span><span class="p">(</span><span class="nv">$temporaryImageName</span><span class="p">);</span>
-    <span class="p">}</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * Deletes old image
-</span><span class="sd">     *
-</span><span class="sd">     * @param $supplierId
-</span><span class="sd">     */</span>
-    <span class="k">private</span> <span class="k">function</span> <span class="nf">deleteOldImage</span><span class="p">(</span><span class="nv">$supplierId</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="sd">/** @var SupplierExtraImage $supplierExtraImage */</span>
-        <span class="nv">$supplierExtraImage</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">supplierExtraImageRepository</span><span class="o">-&gt;</span><span class="na">findOneBy</span><span class="p">([</span><span class="s1">&#39;supplierId&#39;</span> <span class="o">=&gt;</span> <span class="nv">$supplierId</span><span class="p">]);</span>
-        <span class="k">if</span> <span class="p">(</span><span class="nv">$supplierExtraImage</span> <span class="o">&amp;&amp;</span> <span class="nx">file_exists</span><span class="p">(</span><span class="nx">_PS_SUPP_IMG_DIR_</span> <span class="o">.</span> <span class="nv">$supplierExtraImage</span><span class="o">-&gt;</span><span class="na">getImageName</span><span class="p">()))</span> <span class="p">{</span>
-            <span class="nx">unlink</span><span class="p">(</span><span class="nx">_PS_SUPP_IMG_DIR_</span> <span class="o">.</span> <span class="nv">$supplierExtraImage</span><span class="o">-&gt;</span><span class="na">getImageName</span><span class="p">());</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-
-    <span class="sd">/**
-</span><span class="sd">     * Check if image is allowed to be uploaded.
-</span><span class="sd">     *
-</span><span class="sd">     * @param UploadedFile $image
-</span><span class="sd">     *
-</span><span class="sd">     * @throws UploadedImageConstraintException
-</span><span class="sd">     */</span>
-    <span class="k">protected</span> <span class="k">function</span> <span class="nf">checkImageIsAllowedForUpload</span><span class="p">(</span><span class="nx">UploadedFile</span> <span class="nv">$image</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="nv">$maxFileSize</span> <span class="o">=</span> <span class="nx">\Tools</span><span class="o">::</span><span class="na">getMaxUploadSize</span><span class="p">();</span>
-
-        <span class="k">if</span> <span class="p">(</span><span class="nv">$maxFileSize</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="nv">$image</span><span class="o">-&gt;</span><span class="na">getSize</span><span class="p">()</span> <span class="o">&gt;</span> <span class="nv">$maxFileSize</span><span class="p">)</span> <span class="p">{</span>
-            <span class="k">throw</span> <span class="k">new</span> <span class="nx">UploadedImageConstraintException</span><span class="p">(</span>
-                <span class="nx">sprintf</span><span class="p">(</span>
-                   <span class="s1">&#39;Max file size allowed is &#34;%s&#34; bytes. Uploaded image size is &#34;%s&#34;.&#39;</span><span class="p">,</span> 
-                    <span class="nv">$maxFileSize</span><span class="p">,</span> <span class="nv">$image</span><span class="o">-&gt;</span><span class="na">getSize</span><span class="p">()</span>
-                <span class="p">),</span> 
-                <span class="nx">UploadedImageConstraintException</span><span class="o">::</span><span class="na">EXCEEDED_SIZE</span>
-            <span class="p">);</span>
-        <span class="p">}</span>
-
-        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">\ImageManager</span><span class="o">::</span><span class="na">isRealImage</span><span class="p">(</span><span class="nv">$image</span><span class="o">-&gt;</span><span class="na">getPathname</span><span class="p">(),</span> <span class="nv">$image</span><span class="o">-&gt;</span><span class="na">getClientMimeType</span><span class="p">())</span>
-            <span class="o">||</span> <span class="o">!</span><span class="nx">\ImageManager</span><span class="o">::</span><span class="na">isCorrectImageFileExt</span><span class="p">(</span><span class="nv">$image</span><span class="o">-&gt;</span><span class="na">getClientOriginalName</span><span class="p">())</span>
-            <span class="o">||</span> <span class="nx">preg_match</span><span class="p">(</span><span class="s1">&#39;/\%00/&#39;</span><span class="p">,</span> <span class="nv">$image</span><span class="o">-&gt;</span><span class="na">getClientOriginalName</span><span class="p">())</span> <span class="c1">// prevent null byte injection
-</span><span class="c1"></span>        <span class="p">)</span> <span class="p">{</span>
-            <span class="k">throw</span> <span class="k">new</span> <span class="nx">UploadedImageConstraintException</span><span class="p">(</span>
-                <span class="nx">sprintf</span><span class="p">(</span>
-                    <span class="s1">&#39;Image format &#34;%s&#34;, not recognized, allowed formats are: .gif, .jpg, .png&#39;</span><span class="p">,</span> 
-                    <span class="nv">$image</span><span class="o">-&gt;</span><span class="na">getClientOriginalExtension</span><span class="p">()</span>
-                <span class="p">),</span>
-                <span class="nx">UploadedImageConstraintException</span><span class="o">::</span><span class="na">UNRECOGNIZED_FORMAT</span>
-            <span class="p">);</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-
-<span class="p">}</span>
-</code></pre></div><p>Let&rsquo;s create hook <code>hookActionAfterUpdateSupplierFormHandler</code> inside main module class:</p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span>
-    <span class="sd">/**
-</span><span class="sd">     * @param array $params
-</span><span class="sd">     */</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">hookActionAfterUpdateSupplierFormHandler</span><span class="p">(</span><span class="k">array</span> <span class="nv">$params</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">uploadImage</span><span class="p">(</span><span class="nv">$params</span><span class="p">);</span>
-    <span class="p">}</span>
-</code></pre></div><p>Let&rsquo;s create one more hook <code>hookActionAfterCreateSupplierFormHandler</code> inside main module class:</p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span>
-    <span class="sd">/**
-</span><span class="sd">     * @param array $params
-</span><span class="sd">     */</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">hookActionAfterCreateSupplierFormHandler</span><span class="p">(</span><span class="k">array</span> <span class="nv">$params</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">uploadImage</span><span class="p">(</span><span class="nv">$params</span><span class="p">);</span>
-    <span class="p">}</span>
-</code></pre></div><p>Let&rsquo;s add <code>UploadImage</code> function to main class:</p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span>
-    <span class="sd">/**
-</span><span class="sd">     * @param array $params
-</span><span class="sd">     */</span>
-    <span class="k">private</span> <span class="k">function</span> <span class="nf">uploadImage</span><span class="p">(</span><span class="k">array</span> <span class="nv">$params</span><span class="p">)</span><span class="o">:</span> <span class="nx">void</span>
-    <span class="p">{</span>
-        <span class="sd">/** @var ImageUploaderInterface $supplierExtraImageUploader */</span>
-        <span class="nv">$supplierExtraImageUploader</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">get</span><span class="p">(</span>
-            <span class="s1">&#39;prestashop.module.demoextendsymfonyform.uploader.supplier_extra_image_uploader&#39;</span>
-        <span class="p">);</span>
-
-        <span class="sd">/** @var UploadedFile $uploadedFile */</span>
-        <span class="nv">$uploadedFile</span> <span class="o">=</span> <span class="nv">$params</span><span class="p">[</span><span class="s1">&#39;form_data&#39;</span><span class="p">][</span><span class="s1">&#39;upload_image_file&#39;</span><span class="p">];</span>
-
-        <span class="k">if</span> <span class="p">(</span><span class="nv">$uploadedFile</span> <span class="nx">instanceof</span> <span class="nx">UploadedFile</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nv">$supplierExtraImageUploader</span><span class="o">-&gt;</span><span class="na">upload</span><span class="p">(</span><span class="nv">$params</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">],</span> <span class="nv">$uploadedFile</span><span class="p">);</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-</code></pre></div>
-<div class="notices note" >You can find the ready solution in PrestaShop example-modules github repository:
-<a href="https://github.com/PrestaShop/example-modules/tree/master/demoextendsymfonyform2">https://github.com/PrestaShop/example-modules/tree/master/demoextendsymfonyform2</a></div>
-
+<h1 id="domain-services">Domain services</h1>
+<p>As mentioned in <a href="/1.7/development/architecture/domain/cqrs/">CQRS principles</a>, a <code>Command</code> is a representation of a single domain use case. To prevent <code>Command Handlers</code> from duplicating code and depending on each other, it is usually best to <strong>avoid implementing the actual logic in the <code>Command Handler</code></strong> itself, and delegate it to <code>Domain Services</code> instead. These services are responsible for logic such as:</p>
+<ol>
+<li>Persisting the entities (a.k.a ObjectModel in current prestashop architecture) data into database</li>
+<li>Validating the entities</li>
+<li>Performing various modifications of related data structures etc.</li>
+</ol>
+<p>Here are some principles for implementing a Domain Service:</p>
+<ol>
+<li>It MUST use the existing <code>ObjectModel</code> for writes, as long as such class exists.</li>
+<li>If it uses any legacy service or object model, then it MUST be placed in the <code>Adapter</code> namespace.</li>
+<li>If it needs to perform a sql query and related <code>ObjectModel</code> exists, then this query MUST be delegated to the appropriate repository class which must ensure that no legacy exceptions are thrown. If the related <code>ObjectModel</code> already implements such method, then the repository must delegate its implementation to the <code>ObjectModel</code>.
+
+<div class="notices " >Some reusable methods are present in <a href="https://github.com/PrestaShop/PrestaShop/blob/1.7.8.x/src/Adapter/AbstractObjectModelRepository.php">AbstractObjectModelRepository</a>.</div>
+</li>
+<li>If <code>ObjectModel</code> contains fields validation, it MUST be validated by a dedicated validator class before persisting to database (e.g. when using <code>add</code>/<code>update</code>/<code>save</code> methods). It ensures that lagacy <a href="https://github.com/PrestaShop/PrestaShop/blob/1.7.8.x/classes/exception/PrestaShopException.php">PrestashopException</a> is not bubbling up and each validation error can be identified by a dedicated exception or exception code.
+
+<div class="notices " >Some reusable methods are present in <a href="https://github.com/PrestaShop/PrestaShop/blob/1.7.8.x/src/Adapter/AbstractObjectModelValidator.php">AbstractObjectModelValidator</a>.</div>
+</li>
+</ol>
+<h1 id="code-examples">Code examples</h1>
+<h2 id="objectmodel-repositories"><code>ObjectModel</code> repositories</h2>
+<ol>
+<li><a href="https://github.com/PrestaShop/PrestaShop/blob/1.7.8.x/src/Adapter/Product/Repository/ProductRepository.php">ProductRepository</a></li>
+<li><a href="https://github.com/PrestaShop/PrestaShop/blob/1.7.8.x/src/Adapter/Product/Repository/ProductSupplierRepository.php">ProductSupplierRepository</a></li>
+<li><a href="https://github.com/PrestaShop/PrestaShop/blob/1.7.8.x/src/Adapter/Product/VirtualProduct/Repository/VirtualProductFileRepository.php">VirtualProductFileRepository</a></li>
+<li><a href="https://github.com/PrestaShop/PrestaShop/blob/1.7.8.x/src/Adapter/Product/SpecificPrice/Repository/SpecificPriceRepository.php">SpecificPriceRepository</a></li>
+</ol>
+<h2 id="objectmodel-validators"><code>ObjectModel</code> validators</h2>
+<ol>
+<li><a href="https://github.com/PrestaShop/PrestaShop/blob/1.7.8.x/src/Adapter/Product/Validate/ProductValidator.php">ProductValidator</a></li>
+<li><a href="https://github.com/PrestaShop/PrestaShop/blob/1.7.8.x/src/Adapter/Product/Validate/ProductSupplierValidator.php">ProductSupplierValidator</a></li>
+<li><a href="https://github.com/PrestaShop/PrestaShop/blob/1.7.8.x/src/Adapter/Product/VirtualProduct/Validate/VirtualProductFileValidator.php">VirtualProductFileValidator</a></li>
+<li><a href="https://github.com/PrestaShop/PrestaShop/blob/1.7.8.x/src/Adapter/Product/SpecificPrice/Validate/SpecificPriceValidator.php">SpecificPriceValidator</a></li>
+</ol>
+<h2 id="product-domain-services">Product domain services</h2>
+<ol>
+<li><a href="https://github.com/PrestaShop/PrestaShop/tree/1.7.8.x/src/Adapter/Product/Update">Product update services</a></li>
+<li><a href="https://github.com/PrestaShop/PrestaShop/blob/1.7.8.x/src/Adapter/Product/VirtualProduct/Update">Virtual product update services</a></li>
+<li><a href="https://github.com/PrestaShop/PrestaShop/blob/1.7.8.x/src/Adapter/Product/Combination/Update">Combination update services</a></li>
+<li><a href="https://github.com/PrestaShop/PrestaShop/blob/1.7.8.x/src/Adapter/Product/Combination/Create">Combination create services</a></li>
+</ol>
+<h2 id="service-usage-in-commandhandler-examples">Service usage in <code>CommandHandler</code> examples</h2>
+<ol>
+<li><a href="https://github.com/PrestaShop/PrestaShop/tree/1.7.8.x/src/Adapter/Product/Combination/CommandHandler">Combination command handlers</a></li>
+<li><a href="https://github.com/PrestaShop/PrestaShop/tree/1.7.8.x/src/Adapter/Product/VirtualProduct/CommandHandler">Virtual product command handlers</a></li>
+<li><a href="https://github.com/PrestaShop/PrestaShop/tree/1.7.8.x/src/Adapter/Product/Stock/CommandHandler">Product stock command handlers</a></li>
+</ol>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on June 16, 2020
+  Last updated on May 6, 2021
   :
-  <a href="https://github.com/PrestaShop/docs/commit/9bf3ecbec1491aed5e3d43a44496c9e0c96e2e34">"Use native syntax highlighter &#43; fix highlight for PHP blocks" (9bf3ecbec)</a>
+  <a href="https://github.com/PrestaShop/docs/commit/5f861ad4ec5e1b8ed25e01c3def7eabc885747f1">"Apply suggestions from code review" (5f861ad4e)</a>
   
 </div>
 
@@ -17588,19 +17085,19 @@ PrestaShop Symfony pages.</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1620314603"></script>
-    <script src="/js/perfect-scrollbar.min.js?1620314603"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1620314603"></script>
-    <script src="/js/jquery.sticky.js?1620314603"></script>
-    <script src="/js/featherlight.min.js?1620314603"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1620314603"></script>
-    <script src="/js/modernizr.custom-3.6.0.js?1620314603"></script>
-    <script src="/js/learn.js?1620314603"></script>
-    <script src="/js/hugo-learn.js?1620314603"></script>
+    <script src="/js/clipboard.min.js?1620314598"></script>
+    <script src="/js/perfect-scrollbar.min.js?1620314598"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1620314598"></script>
+    <script src="/js/jquery.sticky.js?1620314598"></script>
+    <script src="/js/featherlight.min.js?1620314598"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1620314598"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1620314598"></script>
+    <script src="/js/learn.js?1620314598"></script>
+    <script src="/js/hugo-learn.js?1620314598"></script>
     
-    <script src="/main.js?1620314603"></script>
-    <link href="/mermaid/mermaid.css?1620314603" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1620314603"></script>
+    <script src="/main.js?1620314598"></script>
+    <link href="/mermaid/mermaid.css?1620314598" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1620314598"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
