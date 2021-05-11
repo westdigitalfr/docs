@@ -575,6 +575,9 @@
     <loc>https://devdocs.prestashop.com/1.7/development/architecture/legacy/</loc>
     <lastmod>2020-09-04T17:02:08+02:00</lastmod>
   </url><url>
+    <loc>https://devdocs.prestashop.com/1.7/development/architecture/modern/</loc>
+    <lastmod>2021-05-11T12:22:46+03:00</lastmod>
+  </url><url>
     <loc>https://devdocs.prestashop.com/1.7/themes/reference/templates/notifications/</loc>
     <lastmod>2020-10-23T11:49:14+02:00</lastmod>
   </url><url>
@@ -621,7 +624,7 @@
     <lastmod>2020-08-30T21:11:21+03:00</lastmod>
   </url><url>
     <loc>https://devdocs.prestashop.com/1.7/development/architecture/migration-guide/controller-routing/</loc>
-    <lastmod>2020-09-14T11:46:25+02:00</lastmod>
+    <lastmod>2021-05-11T15:57:41+03:00</lastmod>
   </url><url>
     <loc>https://devdocs.prestashop.com/1.7/project/maintainers-guide/releasing-prestashop/final-steps/</loc>
     <lastmod>2021-03-09T14:47:10+01:00</lastmod>
@@ -849,6 +852,9 @@
   </url><url>
     <loc>https://devdocs.prestashop.com/1.7/development/components/form/types-reference/generatable-text/</loc>
     <lastmod>2019-08-09T10:27:45+03:00</lastmod>
+  </url><url>
+    <loc>https://devdocs.prestashop.com/1.7/modules/concepts/controllers/admin-controllers/route-generation/</loc>
+    <lastmod>2021-05-11T15:57:41+03:00</lastmod>
   </url><url>
     <loc>https://devdocs.prestashop.com/1.7/modules/creation/good-practices/</loc>
     <lastmod>2020-09-11T22:48:56+01:00</lastmod>
@@ -1146,6 +1152,9 @@
   </url><url>
     <loc>https://devdocs.prestashop.com/1.7/development/components/form/types-reference/switch/</loc>
     <lastmod>2020-06-16T15:31:44+02:00</lastmod>
+  </url><url>
+    <loc>https://devdocs.prestashop.com/1.7/development/architecture/modern/controller-routing/</loc>
+    <lastmod>2021-05-11T15:57:41+03:00</lastmod>
   </url><url>
     <loc>https://devdocs.prestashop.com/tags/</loc>
   </url><url>
