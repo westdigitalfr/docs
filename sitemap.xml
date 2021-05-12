@@ -69,7 +69,7 @@
     <lastmod>2020-08-13T15:57:06+02:00</lastmod>
   </url><url>
     <loc>https://devdocs.prestashop.com/1.7/development/page-reference/back-office/order/</loc>
-    <lastmod>2021-05-05T14:43:30+03:00</lastmod>
+    <lastmod>2021-05-10T14:21:17+03:00</lastmod>
   </url><url>
     <loc>https://devdocs.prestashop.com/1.7/development/page-reference/back-office/product/</loc>
     <lastmod>2020-05-26T15:43:09+02:00</lastmod>
@@ -973,6 +973,9 @@
     <loc>https://devdocs.prestashop.com/1.7/webservice/resources/order_states/</loc>
     <lastmod>2020-09-15T10:40:15+02:00</lastmod>
   </url><url>
+    <loc>https://devdocs.prestashop.com/1.7/development/page-reference/back-office/order/view-order/</loc>
+    <lastmod>2021-05-12T10:13:27+03:00</lastmod>
+  </url><url>
     <loc>https://devdocs.prestashop.com/1.7/webservice/resources/orders/</loc>
     <lastmod>2021-03-17T15:44:37+01:00</lastmod>
   </url><url>
@@ -1063,8 +1066,8 @@
     <loc>https://devdocs.prestashop.com/1.7/webservice/resources/products/</loc>
     <lastmod>2021-03-17T15:44:37+01:00</lastmod>
   </url><url>
-    <loc>https://devdocs.prestashop.com/1.7/development/page-reference/back-office/order/refunds/</loc>
-    <lastmod>2021-04-22T09:16:24+02:00</lastmod>
+    <loc>https://devdocs.prestashop.com/1.7/development/page-reference/back-office/order/view-order/refunds/</loc>
+    <lastmod>2021-05-10T14:21:17+03:00</lastmod>
   </url><url>
     <loc>https://devdocs.prestashop.com/1.7/project/release/</loc>
     <lastmod>2020-07-16T17:36:31+02:00</lastmod>
