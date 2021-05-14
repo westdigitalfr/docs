@@ -8,29 +8,29 @@
 <meta name="twitter:image" content="https://devdocs.prestashop.com/images/social-cover.jpg" />
 <meta name="twitter:site" content="@prestashop" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Minor release lifecycle" />
+<meta name="twitter:title" content="Patch release lifecycle" />
 <meta name="twitter:description" content="Learn how to extend, modify and test PrestaShop, create modules, themes, and more.">
 <meta property="og:image" content="https://devdocs.prestashop.com/images/social-cover.jpg" />
 <meta property="og:site_name" content="PrestaShop" />
-<meta property="og:title" content="Minor release lifecycle" />
+<meta property="og:title" content="Patch release lifecycle" />
 <meta property="og:description" content="Learn how to extend, modify and test PrestaShop, create modules, themes, and more.">
 <meta name="author" content="PrestaShop">
 
     <link rel="icon" href="/images/preston-logo@2x.png" type="image/png">
 
-    <title>Minor release lifecycle :: PrestaShop Developer Documentation</title>
+    <title>Patch release lifecycle :: PrestaShop Developer Documentation</title>
 
     
-    <link href="/css/font-awesome.min.css?1620940065" rel="stylesheet">
-    <link href="/css/syntax-github.css?1620940065" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1620940065" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1620940065" rel="stylesheet">
-    <link href="/css/auto-complete.css?1620940065" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1620997652" rel="stylesheet">
+    <link href="/css/syntax-github.css?1620997652" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1620997652" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1620997652" rel="stylesheet">
+    <link href="/css/auto-complete.css?1620997652" rel="stylesheet">
     
-    <link href="/style.css?1620940065" rel="stylesheet">
+    <link href="/style.css?1620997652" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
 
-    <script src="/js/jquery-3.3.1.min.js?1620940065"></script>
+    <script src="/js/jquery-3.3.1.min.js?1620997652"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -61,14 +61,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1620940065"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1620940065"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1620997652"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1620997652"></script>
 <script type="text/javascript">
     
         var baseurl = '\/';
     
 </script>
-<script type="text/javascript" src="/js/search.js?1620940065"></script>
+<script type="text/javascript" src="/js/search.js?1620997652"></script>
 
     
   </div>
@@ -10428,9 +10428,9 @@
  
   
     
-      <li data-nav-id="/1.7/project/release/patch-release-lifecycle/" title="Minor release lifecycle" class="dd-item active currentPage">
+      <li data-nav-id="/1.7/project/release/patch-release-lifecycle/" title="Patch release lifecycle" class="dd-item active currentPage">
         <a href="/1.7/project/release/patch-release-lifecycle/">
-        Minor release lifecycle
+        Patch release lifecycle
         
         </a>
     </li>
@@ -10449,9 +10449,9 @@
  
   
     
-      <li data-nav-id="/1.7/project/release/minor-release-lifecycle/" title="Patch release lifecycle" class="dd-item ">
+      <li data-nav-id="/1.7/project/release/minor-release-lifecycle/" title="Minor release lifecycle" class="dd-item ">
         <a href="/1.7/project/release/minor-release-lifecycle/">
-        Patch release lifecycle
+        Minor release lifecycle
         
         </a>
     </li>
@@ -10846,7 +10846,7 @@
               
             
             
-              <a href='/'>Home</a> > <a href='/1.7/'>PrestaShop 1.7</a> > <a href='/1.7/project/'>The PrestaShop Project</a> > <a href='/1.7/project/release/'>Release</a> > Minor release lifecycle
+              <a href='/'>Home</a> > <a href='/1.7/'>PrestaShop 1.7</a> > <a href='/1.7/project/'>The PrestaShop Project</a> > <a href='/1.7/project/release/'>Release</a> > Patch release lifecycle
             
           
             
@@ -10875,17 +10875,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#minor-release-lifecycle">Minor release lifecycle</a>
+    <li><a href="#patch-release-lifecycle">Patch release lifecycle</a>
       <ul>
-        <li><a href="#kanban-and-scope">Kanban and scope</a></li>
-        <li><a href="#feature-freeze">Feature Freeze</a></li>
-        <li><a href="#public-beta-period">Public Beta period</a></li>
-        <li><a href="#release-candidate">Release Candidate</a></li>
-        <li><a href="#summary">Summary</a>
-          <ul>
-            <li><a href="#calendar">Calendar</a></li>
-          </ul>
-        </li>
+        <li><a href="#scope-of-maintainance">Scope of maintainance</a></li>
+        <li><a href="#when-is-it-decided-to-release-a-patch-">When is it decided to release a patch ?</a></li>
+        <li><a href="#what-happens-in-six-weeks">What happens in six weeks</a></li>
       </ul>
     </li>
   </ul>
@@ -17221,7 +17215,7 @@
 
   
   
-  <a class="nav nav-next" href="/1.7/project/release/minor-release-lifecycle/" title="Patch release lifecycle" style="margin-right: 0px;">
+  <a class="nav nav-next" href="/1.7/project/release/minor-release-lifecycle/" title="Minor release lifecycle" style="margin-right: 0px;">
     <i class="fa fa-chevron-right"></i>
     Next article
   </a>
@@ -17241,73 +17235,35 @@
 
 
 
-<h1 id="minor-release-lifecycle">Minor release lifecycle</h1>
-<h2 id="kanban-and-scope">Kanban and scope</h2>
-<p>Each minor version is defined by a feature scope, that is, a number of GitHub issues that we put in a version <a href="https://help.github.com/en/github/managing-your-work-on-github/about-project-boards">Kanban</a>. How these issues are picked or sorted is the responsibility of the Product Team, who spends a lot of time gathering feedback from the PrestaShop community to make sure the next minor version addresses the most important needs.</p>
-<p>For example PrestaShop 1.7.7.0 scope contained, but not only:</p>
+<h1 id="patch-release-lifecycle">Patch release lifecycle</h1>
+<p>Patch releases are &ldquo;maintainance&rdquo; releases: they provide bug fixes and security patches, but do not provide enhancements or new features. They are part of a necessary maintenance process.</p>
+<h2 id="scope-of-maintainance">Scope of maintainance</h2>
+<p>When a minor version is released, such as PrestaShop 1.7.7.0, the related branch becomes the latest and maintained branch.
+This means that, when PrestaShop 1.7.7.0 is out:</p>
 <ul>
-<li>Compatibility with php 7.3</li>
-<li>Migration and rework of Back-office Order pages</li>
-<li>Advanced currencies management</li>
+<li>There will be no more PrestaShop 1.7.6 patch releases, for either bug or security issues</li>
+<li>There might be, if necessary, patch releases for PrestaShop 1.7.7. (which means: 1.7.7.1, 1.7.7.2 and so on &hellip;) until next minor release is delivered (PrestaShop 1.7.8)</li>
 </ul>
-<p>Although it is very hard to estimate the size of this scope, we try to size it in order for the development phase to last 4 months.</p>
-<p>Once this scope has been is completed – i.e all issues have reached the &ldquo;Done&rdquo; column of the Kanban – the project reaches the <a href="https://en.wikipedia.org/wiki/Freeze_(software_engineering)">Feature Freeze</a> stage.</p>
-<p>During this phase, no new items can be added to the version&rsquo;s scope, unless they are bugs related to code changes performed during the development of this version – called <em>regressions</em>). However, this is a <em>Feature Freeze</em>, not a <em>Code Freeze</em>, so some older bugs may be added to the scope if it is considered opportune to fix them quickly before the release is out (e.g. security fixes).</p>
-<h2 id="feature-freeze">Feature Freeze</h2>
-<p>Feature freeze means that all features of this version have been done and no new ones may be accepted in its scope. The project enters a phase of <em>stabilization</em> whose aim is to identify and fix all regressions) before it&rsquo;s released.</p>
-<p>Once this phase is started, Core maintainers create a git branch from <code>develop</code> branch which will carry the work to be done until the release (for 1.7.7.0, the branch name was <code>1.7.7.x</code>). From this moment on, <strong>only changes that fix regressions introduced in that same branch can be merged into this branch</strong>.</p>
-<p>Incidentally, this is also the branch where all future patch versions for this minor version will be developed on (hence the <code>.x</code> at the end).</p>
-<p>Also, since stabilization is performed in a separate branch (<code>1.7.7.x</code> in our example), development for the next minor release (1.7.8 in our example) can start on the <code>develop</code> branch. This means that the development of any given minor version development actually starts (albeit slowly) precisely the moment the previous version enters feature freeze.</p>
-<p>The QA team picks up the latest <a href="https://nightly.prestashop.com/">nightly build</a> and starts a huge test campaign. The goal of this campaign is to find and register all regressions of this build.</p>
-<p>As the QA team verifies the build, they will populate the Kanban with all the bugs they find.
-All important regressions must be fixed quickly. Although it depends heavily on the number of regressions found, this phase should last about one month. Once all major bugs have been fixed, the <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta">Beta phase</a> can be launched.</p>
-<h2 id="public-beta-period">Public Beta period</h2>
-<p>When the branch reaches a point of maturity, which means only minor or trivial issues remain to be fixed, maintainers can create a Beta build using the <code>.x</code> branch codebase.</p>
-<p>This Beta build is released publicly. During the month following this release, the community is <strong>very strongly encouraged to test it</strong> and give their feedback quickly: the sooner a problem is identified, the sooner it will be fixed. Remember that experts agree that the cost of fixing a bug grows exponentially with time – it is much cheaper to spend time now to ensure everything works well before the final release is out than to discover a bug in production later and lose business while a patch is prepared.</p>
-<p>During this one month, we continue testing and fixing the <code>.x</code> (following the stabilization goal) but we know that we can only test and imagine a limited amount of usecases. The community however knows better than us all the possible ways to use PrestaShop to build a business.</p>
-<p>So <strong>everybody can help</strong> make this release better and more stable by testing it during the Beta phase.</p>
-<p>What does it mean to test a Beta build?</p>
+<p>When PrestaShop 1.7.7.0 is released, PrestaShop 1.7.6 reaches its <a href="https://en.wikipedia.org/wiki/End-of-life_(product)">End Of Life</a>, just like all previous minor versions.</p>
+<h2 id="when-is-it-decided-to-release-a-patch-">When is it decided to release a patch ?</h2>
+<p>A patch release is scheduled when a &ldquo;trigger bug&rdquo; is reported:</p>
 <ul>
-<li>If you use PrestaShop web services API for integration with other systems, make sure they work as expected</li>
-<li>If you build 1.7 modules or themes, test them on the new version</li>
-<li>If you know very well some of the modified/improved/reworked Back-office pages, please give them a try</li>
-<li>If you customized some parts of the shop, make sure they work well in the new version</li>
-<li>If you are hosting shops or providing maintenance services to merchants, import the data of one or two typical shops on a pre-production server and check the performance and the behavior of this version; you can also check that the update process is working as expected, depending on your favorite method</li>
+<li>A major bug in maintained branch</li>
+<li>A security issue in maintained branch</li>
 </ul>
-<p>For example, if you are a payment module developer, just installing your module on this Beta software, processing one payment and telling us that everything is running as expected is already a great feedback.</p>
-<p>If however you find a problem, you can</p>
-<ul>
-<li><a href="https://github.com/PrestaShop/PrestaShop/issues">Report this as a bug on GitHub</a> (read <a href="https://devdocs.prestashop.com/1.7/contribute/contribute-reporting-issues/">how to report issues</a>)</li>
-<li>Submit a bug fix by creating a <a href="https://github.com/PrestaShop/PrestaShop/compare">pull request</a> (read the <a href="https://devdocs.prestashop.com/1.7/contribute/contribution-guidelines/">contribution guidelines</a>)</li>
-</ul>
-<h2 id="release-candidate">Release Candidate</h2>
-<p>When Beta period ends, we consider that all the remaining regressions for this release are registered in the Kanban. So the aim is clear: fix them all, then ship.</p>
-<p>Once all regressions have been fixed, maintainers deliver a Release Candidate Build using the <code>.x</code> branch codebase. This will be the Release Candidate 1 (also known as RC1).</p>
-<p>This Build is extensively re-tested by the QA, then provided to everyone. Once released, the timer starts. We wait for one week. During this week we continue testing and exploring the Build, trying to find anything that would not have been detected earlier, and the community should do the same.</p>
-<p>By the end of the week, if no new regression has been reported, the RC1 is rebranded and becomes the final release. <strong>The new minor version of PrestaShop is out.</strong></p>
-<p>Most of the time, a couple final regressions will be reported. In that case, the bugs are fixed, an RC2 build is published, and the timer is reset. This cycle repeats until no new regressions are reported within the defined timeframe.</p>
-<p>Finally the latest built Release Candidate becomes the new latest stable PrestaShop software minor release.</p>
-<h2 id="summary">Summary</h2>
-<ul>
-<li>The cycle begins when development starts within the scope of a minor version release. When the scope of this version is finished, Feature Freeze is triggered.</li>
-</ul>
-<p>Expected duration: 4 months</p>
-<ul>
-<li>Following Feature Freeze, a nightly build is picked up and tested extensively by QA team, who will then report all known defects. This will allow to plan, then deliver a Beta release.</li>
-</ul>
-<p>Expected duration: 1 month</p>
-<ul>
-<li>The Beta Build is made available to all. Maintainers host a one-month long beta period to allow the community to test the build and submit feedback.</li>
-</ul>
-<p>Expected duration: 1 month</p>
-<ul>
-<li>At the end of the Beta period, all regressions are fixed and maintainers deliver a Release Candidate 1 build.
-If bugs are reported, they are fixed in an RC2 build, and so on until a build has no issues reported within the following week. The last Release Candidate becomes the stable release.</li>
-</ul>
-<p>Expected duration: from 1 week (if RC1 is flawless) to 1 month, possibly 2 months</p>
-<h3 id="calendar">Calendar</h3>
-<p>The global duration for all the process is about 6 months. This is why we expect to deliver at most 2 minor releases per year.</p>
-<p><em>(This article was originally published on our blog: <a href="https://build.prestashop.com/news/ps17-patch-release-lifecycle/">PrestaShop 1.7 Minor Release Lifecycle
+<p>For example, let&rsquo;s see 1.7.7.0 lifecycle:</p>
+<p>Until PrestaShop 1.7.7.0 is released, the maintained branch remains <code>1.7.6.x</code>.</p>
+<p>This means that work on a new 1.7.6 release will start if a community contributor or the QA team reports a major regression in PrestaShop 1.7.6 or a security issue.</p>
+<p>This means that <strong>work on a new 1.7.6 release will start if a community contributor or the QA team reports a major regression in PrestaShop 1.7.6 or a security issue.</strong></p>
+<p>If minor or trivial regressions are reported for PrestaShop 1.7.6, they are scheduled to be fixed in next minor version. Minor or trivial bugs are considered not important enough to trigger a patch release process which is, as explained below, a costly process for both the PrestaShop company and the PrestaShop community.</p>
+<p>From the moment a &ldquo;trigger bug&rdquo; is reported, there start a <em>6 weeks long timer</em>. Our process states that a patch release must be delivered within these 6 weeks.</p>
+<h2 id="what-happens-in-six-weeks">What happens in six weeks</h2>
+<p>From the moment the 6 weeks timer is started, Product Team register into the dedicated Kanban the bugs to be fixed in the patch release, whether they are trivial, minor or major.</p>
+<p>Then maintainers start working on fixing them (or merging the bug fixes submitted by the community).</p>
+<p>Obviously, security issues are not processed the same way: when a vulnerability is reported, it is being explored and it is being fixed in a hidden manner in order to make sure hackers unaware of the vulnerability do not hear about it. We use <a href="https://help.github.com/en/github/managing-security-vulnerabilities/about-github-security-advisories">GitHub Security Advisories</a> and temporary private forks to collaborate on the fix. Maintainers only publish the advisory and the fix on the day of the release, following <a href="https://en.wikipedia.org/wiki/Responsible_disclosure">responsible disclosure</a> principle.</p>
+<p>When all bug fixes for the target patch version are merged, and all teams pressure themselves to make it happen before the end of the 6 weeks, maintainers deliver a Release Candidate to QA team for the <strong>standard patch release test campaign</strong>. This test campaign aims to find whether this patch introduces new bugs.</p>
+<p>If the campaign reports that no bugs are found, the new patch release is validated by QA team and can be delivered!</p>
+<p><em>(This article was originally published on our blog: <a href="https://build.prestashop.com/news/ps17-minor-release-lifecycle/">PrestaShop 1.7 Patch Release Lifecycle
 </a>)</em></p>
 
 
@@ -17316,7 +17272,7 @@ If bugs are reported, they are fixed in an RC2 build, and so on until a build ha
 <div>
   Last updated on May 4, 2021
   :
-  <a href="https://github.com/PrestaShop/docs/commit/2205552acc424164ee03c1a0322eb960fd6083ad">"Update release process - only regressions fixed in stabilization" (2205552ac)</a>
+  <a href="https://github.com/PrestaShop/docs/commit/5dbbd0baa58afd194f4159e48ce9ae64fe80c4a9">"Fix inverted lifecycle posts" (5dbbd0baa)</a>
   
 </div>
 
@@ -17337,19 +17293,19 @@ If bugs are reported, they are fixed in an RC2 build, and so on until a build ha
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1620940065"></script>
-    <script src="/js/perfect-scrollbar.min.js?1620940065"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1620940065"></script>
-    <script src="/js/jquery.sticky.js?1620940065"></script>
-    <script src="/js/featherlight.min.js?1620940065"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1620940065"></script>
-    <script src="/js/modernizr.custom-3.6.0.js?1620940065"></script>
-    <script src="/js/learn.js?1620940065"></script>
-    <script src="/js/hugo-learn.js?1620940065"></script>
+    <script src="/js/clipboard.min.js?1620997652"></script>
+    <script src="/js/perfect-scrollbar.min.js?1620997652"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1620997652"></script>
+    <script src="/js/jquery.sticky.js?1620997652"></script>
+    <script src="/js/featherlight.min.js?1620997652"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1620997652"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1620997652"></script>
+    <script src="/js/learn.js?1620997652"></script>
+    <script src="/js/hugo-learn.js?1620997652"></script>
     
-    <script src="/main.js?1620940065"></script>
-    <link href="/mermaid/mermaid.css?1620940065" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1620940065"></script>
+    <script src="/main.js?1620997652"></script>
+    <link href="/mermaid/mermaid.css?1620997652" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1620997652"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

@@ -157,16 +157,6 @@ What kind of tests do PrestaShop use? In the tests folder, you will find:
     </item>
     
     <item>
-      <title>Minor release lifecycle</title>
-      <link>https://devdocs.prestashop.com/1.7/project/release/patch-release-lifecycle/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://devdocs.prestashop.com/1.7/project/release/patch-release-lifecycle/</guid>
-      <description>Minor release lifecycle Kanban and scope Each minor version is defined by a feature scope, that is, a number of GitHub issues that we put in a version Kanban. How these issues are picked or sorted is the responsibility of the Product Team, who spends a lot of time gathering feedback from the PrestaShop community to make sure the next minor version addresses the most important needs.
-For example PrestaShop 1.</description>
-    </item>
-    
-    <item>
       <title>Module base creation</title>
       <link>https://devdocs.prestashop.com/1.7/modules/sample-modules/order-pages-new-hooks/module-base/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -184,6 +174,17 @@ Even though using autoload block in composer.json helps us to autoload classes f
       <guid>https://devdocs.prestashop.com/1.7/modules/creation/module-translation/new-system/</guid>
       <description>New module translation system  The new module translation system is based on the new system introduced in PrestaShop 1.7 for the Core and Native modules. It aims to harmonize translation systems throughout PrestaShop while providing backwards compatibility.
 This feature is only available for PrestaShop 1.7.6 and later. If you need to support older versions, see the Classic translation system. Vocabulary  Wording – A string that you may want to translate.</description>
+    </item>
+    
+    <item>
+      <title>Patch release lifecycle</title>
+      <link>https://devdocs.prestashop.com/1.7/project/release/patch-release-lifecycle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devdocs.prestashop.com/1.7/project/release/patch-release-lifecycle/</guid>
+      <description>Patch release lifecycle Patch releases are &amp;ldquo;maintainance&amp;rdquo; releases: they provide bug fixes and security patches, but do not provide enhancements or new features. They are part of a necessary maintenance process.
+Scope of maintainance When a minor version is released, such as PrestaShop 1.7.7.0, the related branch becomes the latest and maintained branch. This means that, when PrestaShop 1.7.7.0 is out:
+ There will be no more PrestaShop 1.7.6 patch releases, for either bug or security issues There might be, if necessary, patch releases for PrestaShop 1.</description>
     </item>
     
     <item>
@@ -403,14 +404,13 @@ As we saw in the previous code sample, we need the get() method to retrieve an X
     </item>
     
     <item>
-      <title>Patch release lifecycle</title>
+      <title>Minor release lifecycle</title>
       <link>https://devdocs.prestashop.com/1.7/project/release/minor-release-lifecycle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://devdocs.prestashop.com/1.7/project/release/minor-release-lifecycle/</guid>
-      <description>Patch release lifecycle Patch releases are &amp;ldquo;maintainance&amp;rdquo; releases: they provide bug fixes and security patches, but do not provide enhancements or new features. They are part of a necessary maintenance process.
-Scope of maintainance When a minor version is released, such as PrestaShop 1.7.7.0, the related branch becomes the latest and maintained branch. This means that, when PrestaShop 1.7.7.0 is out:
- There will be no more PrestaShop 1.7.6 patch releases, for either bug or security issues There might be, if necessary, patch releases for PrestaShop 1.</description>
+      <description>Minor release lifecycle Kanban and scope Each minor version is defined by a feature scope, that is, a number of GitHub issues that we put in a version Kanban. How these issues are picked or sorted is the responsibility of the Product Team, who spends a lot of time gathering feedback from the PrestaShop community to make sure the next minor version addresses the most important needs.
+For example PrestaShop 1.</description>
     </item>
     
     <item>
